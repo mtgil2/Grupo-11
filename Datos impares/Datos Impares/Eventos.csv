@@ -1,234 +1,234 @@
-﻿id_evento,nombre_lugar,id_productora,id_tour,id_ciudad,fecha_evento
-0,Pabellon Max Schmeling,227,,0,9/5/2020
-1,Arena Ludwingsburg,10,,1,23/01/2021
-2,Irving Plaza,92,17,2,12/9/2020
-3,Thunder Bay,80,,3,29/07/2020
-4,Tarpeian Precinct Lawn,114,,4,12/8/2018
-5,Raley Field,53,,5,30/03/2016
-6,E-Werk,93,14,6,6/3/2016
-7,Pabellon Max Schmeling,227,,0,9/5/2020
-8,Bilbao Arena,220,0,7,10/8/2021
-9,Forest National,181,,8,14/11/2018
-10,Don Haskins Center,241,1,9,5/1/2019
-11,Madison Square Garden,102,14,2,23/12/2018
-12,Leons Centre,67,8,3,18/01/2018
-13,Mercedes-Benz Arena,50,,0,19/01/2022
-14,Quinta Vergara,218,3,10,30/08/2018
-15,Pabellon Fuente de San Luis,149,22,11,4/7/2020
-16,Teatro Municipal de Santiago,201,,12,3/5/2016
-17,Palais 12,152,,13,7/6/2016
-18,Estadio Unico Diego Armando Maradona,202,,14,15/03/2016
-19,Teatro Municipal de Santiago,97,,12,5/12/2020
-20,Carrer Baix Vinalopo,53,12,15,6/1/2019
-21,Radio City Music Hall,237,,2,11/4/2016
-22,Spark Arena,240,,16,27/10/2020
-23,Club Blondie,7,11,12,18/05/2017
-24,Club Subterraneo,48,,12,24/10/2022
-25,Olympiahalle,29,,17,16/08/2016
-26,Estadio Nacional,129,,12,17/08/2018
-27,Explanada Ciudad Empresarial,52,11,12,13/04/2020
-28,SALA SANTANA,149,,7,6/2/2022
-29,El Huevo,95,24,18,30/09/2017
-30,Sala La Rivera,53,,19,21/12/2020
-31,Arena Ludwingsburg,10,,1,23/01/2021
-32,HISTORY,80,,20,27/03/2017
-33,Teatro CaupolicÃ¡n,86,23,12,8/5/2018
-34,UBS Arena,226,,2,23/05/2021
-35,Teatro Cariola,218,22,12,19/07/2019
-36,Estadio Nacional,129,,12,17/08/2018
-37,Estadio ANZ,39,4,4,28/07/2019
-38,Estadio Bicentario de La Florida,129,,12,15/10/2021
-39,Kursaal Oostende,123,,21,12/4/2018
-40,LAUT,245,,22,10/8/2019
-41,Teatro Coliseo,27,23,12,20/04/2018
-42,Vivo Rio,213,,23,26/02/2016
-43,Teatro Colon,79,,14,9/12/2019
-44,SOF Q8 Toinha Brasil,140,5,24,8/9/2019
-45,Radio City Music Hall,237,,2,11/4/2016
-46,The Anthem,226,2,25,16/06/2016
-47,Vivo Rio,213,,23,26/02/2016
-48,Club Subterraneo,48,,12,24/10/2022
-49,Youtube Theatre,226,,26,22/05/2018
-50,Festhalle,36,,27,14/08/2021
-51,Powerstation 33,83,21,16,30/05/2016
-52,Club Providencia,205,,12,6/8/2019
-53,Pabellon Max Schmeling,227,,0,9/5/2020
-54,SALA SANTANA,245,,7,18/04/2021
-55,Estadio Monumental,94,29,14,1/12/2019
-56,Studio The Venue,234,,16,7/3/2020
-57,Estadio Rose Bowl,92,,26,12/8/2017
-58,Irving Plaza,102,,2,5/11/2020
-59,Estadio Monumental,139,18,12,16/06/2016
-60,Arena TSB Bank,243,,28,8/7/2021
-61,Days Bay Pavilion,83,,29,28/03/2020
-62,Estadio Nacional,147,,12,10/10/2021
-63,Days Bay Pavilion,234,9,29,8/2/2018
-64,Columbianhalle,36,11,0,10/10/2020
-65,Sala La Rivera,53,7,19,8/7/2022
-66,Shubert Theatre,102,,30,21/06/2020
-67,Sala Apolo,53,6,22,3/7/2019
-68,Salitre Magico,158,6,31,17/12/2022
-69,Teatro TeletÃ³n,17,,12,11/12/2016
-70,Thunder Bay,80,,3,8/9/2022
-71,Cirque Royal,5,15,13,16/07/2021
-72,The Fillmore Philadelphia,53,,32,28/03/2017
-73,Teatro Municipal de Santiago,218,16,12,16/09/2022
-74,Teatro Municipal de Santiago,134,10,12,25/09/2021
-75,Salitre Magico,135,22,31,7/12/2019
-76,Warehouse Live,237,,9,26/02/2020
-77,El Huevo,218,,18,8/11/2022
-78,Pabellon Max Schmeling,227,,0,9/5/2020
-79,Jeunesse Arena,75,,23,13/07/2018
-80,Espacio Unimed,75,,33,8/1/2016
-81,Vivo Rio,213,,23,26/02/2016
-82,Air Canada Centre,67,,20,12/5/2021
-83,Opera de Sidney,22,,4,10/2/2019
-84,Metropol,36,4,0,1/6/2020
-85,UBS Arena,241,,2,2/3/2018
-86,Radio City Music Hall,237,,2,11/4/2016
-87,Barclaycard Arena,163,12,34,19/12/2017
-88,Parque Bicentenario Cerrillos,164,,12,12/7/2018
-89,La Marina de Valencia,51,,11,23/03/2022
-90,Teatro Municipal de Santiago,129,15,12,18/09/2020
-91,Raley Field,102,,5,17/04/2017
-92,Velodromo de Berlin,123,,0,9/10/2018
-93,Sala La Rivera,51,,19,20/06/2018
-94,Estadio Nacional,104,25,14,14/01/2020
-95,Palau Sant Jordi,53,,22,26/07/2022
-96,Teatro Cariola,59,,12,28/01/2022
-97,Estadio Bicentario de La Florida,217,,12,27/11/2018
-98,FirstOntario Centre,168,,35,7/7/2019
-99,Club RBX,78,,12,11/12/2016
-100,Quinta Vergara,205,,,21/07/2016
-101,Carioca Club,124,1,33,29/07/2018
-102,Dodger Stadium,237,,26,25/06/2022
-103,Aotea Centre,243,,16,24/07/2016
-104,Radio City Music Hall,53,,2,28/08/2019
-105,Bikini Barcelona,53,5,22,19/04/2020
-106,The Anthem,231,7,25,29/01/2018
-107,Don Haskins Center,237,,9,8/12/2018
-108,Movistar Arena,202,,14,7/8/2019
-109,Trafalgar Centre Paru,240,,36,4/1/2022
-110,ZAG Arena,93,,37,17/02/2016
-111,"Stage Live, Kalea",149,,7,7/4/2016
-112,Arena Ludwingsburg,163,20,1,22/02/2017
-113,Gran Arena Monticello,57,,12,19/07/2016
-114,Freiheitshalle,163,26,17,3/4/2022
-115,Arena TSB Bank,236,,28,24/09/2019
-116,Estadio ANZ,206,,4,21/06/2016
-117,Shubert Theatre,242,,30,2/8/2020
-118,Estadio Unico Diego Armando Maradona,202,,14,15/03/2016
-119,Espacio Unimed,146,,33,15/02/2016
-120,Independance Club,245,24,19,28/2/2021
-121,Vivo Rio,213,,23,26/02/2016
-122,Mercedes-Benz Arena,50,3,0,11/9/2020
-123,The Brooklyn Monarch,241,,2,25/08/2019
-124,Luna Park,137,,14,2/5/2021
-125,Columbianhalle,36,,0,6/2/2020
-126,Gran Arena Monticello,106,,12,29/06/2016
-127,Niceto Club,81,21,14,11/1/2017
-128,Teatro Municipal de Santiago,0,,12,10/6/2022
-129,Metropolitano Rosario,77,,14,7/11/2020
-130,Teatro TeletÃ³n,17,,12,11/12/2016
-131,Thunder Bay,80,27,3,9/7/2022
-132,Warehouse Live,102,,9,2/4/2022
-133,Teatro Colon,229,4,14,29/05/2021
-134,Teatro Mayor,72,7,31,29/05/2022
-135,Cupula Multiespacio,134,,12,13/11/2017
-136,Sala La Rivera,51,,19,20/06/2018
-137,Aotea Centre,83,,16,24/02/2021
-138,Antel Arena,229,,14,8/2/2022
-139,Raley Field,242,28,5,2/3/2017
-140,Palau Sant Jordi,53,,22,6/9/2017
-141,Warehouse Live,231,,9,12/1/2016
-142,Sala La Rivera,51,,19,20/06/2018
-143,Thunder Bay,80,,3,16/02/2020
-144,Sala Apolo,53,18,22,26/02/2016
-145,Estadio Unico Diego Armando Maradona,202,,14,15/03/2016
-146,Club Subterraneo,129,,12,1/10/2020
-147,Estadio Unico Diego Armando Maradona,202,,14,15/03/2016
-148,Club Subterraneo,108,,12,6/11/2019
-149,Teatro Gran Rex,79,,14,2/2/2017
-150,Luna Park,137,29,14,15/05/2021
-151,Moon Valencia,220,,11,15/02/2016
-152,Arena TSB Bank,243,13,28,16/01/2017
-153,Chango Club,149,,19,11/8/2018
-154,Columbianhalle,227,27,0,19/12/2022
-155,Vivo Rio,213,,23,26/02/2016
-156,La Madeleine,155,,13,28/01/2017
-157,Mercedes-Benz Arena,230,24,0,4/10/2016
-158,Olympiahalle,29,,17,16/08/2016
-159,Espacio Riesco,165,,12,22/12/2017
-160,Lanxess Arena,66,,6,1/3/2018
-161,Crypto.com Arena,103,,26,17/04/2022
-162,Gran Arena Monticello,129,,12,21/10/2016
-163,Phoenix Concert Theatre,29,,20,11/9/2021
-164,Olympiahalle,29,,17,16/08/2016
-165,Estadio Rose Bowl,212,15,26,17/07/2022
-166,Aussie Stadium,206,,4,20/04/2016
-167,Casino de ViÃ±a del Mar,108,,10,1/1/2022
-168,E-Werk,36,,6,30/01/2016
-169,Shubert Theatre,53,,30,10/5/2021
-170,Trafalgar Centre Paru,243,16,36,9/6/2020
-171,Club Subterraneo,48,,12,24/10/2022
-172,Teatro Municipal de Valparaiso,85,19,18,7/7/2018
-173,City Hall el Rodeo,15,,38,28/03/2016
-174,Teatro TeletÃ³n,17,,12,11/12/2016
-175,Palacio de las Artes,51,,11,28/2/2019
-176,Club Subterraneo,48,,12,24/10/2022
-177,Niceto Club,79,,14,12/11/2021
-178,Pabellon Max Schmeling,227,,0,9/5/2020
-179,Hipodromo de Palermo,81,19,14,24/08/2017
-180,Arena TSB Bank,240,26,28,6/5/2018
-181,Estadio ANZ,5,,4,7/9/2021
-182,Cupula Multiespacio,129,2,12,21/08/2018
-183,Olympiahalle,29,,17,16/08/2016
-184,Estadio Rose Bowl,53,,26,11/8/2022
-185,Palau Sant Jordi,53,31,22,1/3/2018
-186,HISTORY,5,30,20,14/05/2022
-187,Movistar Arena,218,0,12,5/4/2019
-188,Club Subterraneo,129,,12,18/02/2018
-189,Gran Arena Monticello,37,,12,7/5/2016
-190,Sala But,149,,19,17/12/2019
-191,Luna Park,223,,14,27/02/2020
-192,Teatro TeletÃ³n,185,31,12,18/01/2021
-193,Luna Park,137,,14,9/6/2016
-194,Palau Sant Jordi,51,25,22,20/04/2019
-195,Mercedes-Benz Arena,50,8,0,29/11/2022
-196,WIZink Center,149,23,19,4/11/2021
-197,Sala La Rivera,51,,19,20/06/2018
-198,Kursaal Oostende,6,,21,29/04/2019
-199,SOF Q8 Toinha Brasil,124,,24,9/8/2020
-200,Estadio Unico Diego Armando Maradona,202,,14,15/03/2016
-201,SALA SANTANA,51,,7,16/06/2020
-202,Warehouse Live,226,,9,3/2/2021
-203,Air Canada Centre,67,,20,18/10/2020
-204,La Madeleine,155,,13,10/9/2021
-205,Teatro Municipal de Santiago,61,10,12,14/09/2022
-206,Club Subterraneo,48,,12,24/10/2022
-207,Salitre Magico,224,,31,23/10/2019
-208,Estadio Rose Bowl,103,,26,13/07/2017
-209,Vivo Rio,213,,23,26/02/2016
-210,Days Bay Pavilion,160,,29,3/3/2021
-211,Wilterm Theatre,53,30,26,16/08/2017
-212,Estadio Nacional,129,,12,17/08/2018
-213,City Hall el Rodeo,44,8,38,3/3/2016
-214,Niceto Club,104,9,14,22/07/2021
-215,Aotea Centre,236,,16,5/1/2021
-216,Teatro Gran Rex,79,,14,24/07/2020
-217,La Marina de Valencia,53,20,11,22/03/2022
-218,Estadio Unico Diego Armando Maradona,202,,14,15/03/2016
-219,Velodromo de Berlin,174,,0,19/09/2022
-220,Estadio de Futbol Atanasio Girardot,63,,38,4/9/2018
-221,Estadio Nacional,129,,12,17/08/2018
-222,Vivo Rio,213,,23,26/02/2016
-223,Club Chocolate,185,28,12,6/4/2022
-224,Moon Valencia,51,,11,30/09/2019
-225,Teatro Municipal de Valparaiso,141,,18,17/02/2020
-226,Estadio Santa Laura,95,,12,16/12/2016
-227,Fundo Colmito,76,,10,15/12/2021
-228,Canadian Tire Centre,214,,39,7/10/2020
-229,WIZink Center,166,0,19,26/09/2017
-230,Studio The Venue,160,,16,29/05/2020
-231,Shubert Theatre,241,17,30,8/5/2017
-232,Carrer Baix Vinalopo,166,13,15,14/02/2021
+﻿id_evento,nombre_lugar,id_productora,id_tour,fecha_evento
+0,Pabellon Max Schmeling,227,,9/5/2020
+1,Arena Ludwingsburg,10,,23/01/2021
+2,Irving Plaza,92,17,12/9/2020
+3,Thunder Bay,80,,29/07/2020
+4,Tarpeian Precinct Lawn,114,,12/8/2018
+5,Raley Field,53,,30/03/2016
+6,E-Werk,93,14,6/3/2016
+7,Pabellon Max Schmeling,227,,9/5/2020
+8,Bilbao Arena,220,0,10/8/2021
+9,Forest National,181,,14/11/2018
+10,Don Haskins Center,241,1,5/1/2019
+11,Madison Square Garden,102,14,23/12/2018
+12,Leons Centre,67,8,18/01/2018
+13,Mercedes-Benz Arena,50,,19/01/2022
+14,Quinta Vergara,218,3,30/08/2018
+15,Pabellon Fuente de San Luis,149,22,4/7/2020
+16,Teatro Municipal de Santiago,201,,3/5/2016
+17,Palais 12,152,,7/6/2016
+18,Estadio Unico Diego Armando Maradona,202,,15/03/2016
+19,Teatro Municipal de Santiago,97,,5/12/2020
+20,Carrer Baix Vinalopo,53,12,6/1/2019
+21,Radio City Music Hall,237,,11/4/2016
+22,Spark Arena,240,,27/10/2020
+23,Club Blondie,7,11,18/05/2017
+24,Club Subterraneo,48,,24/10/2022
+25,Olympiahalle,29,,16/08/2016
+26,Estadio Nacional,129,,17/08/2018
+27,Explanada Ciudad Empresarial,52,11,13/04/2020
+28,SALA SANTANA,149,,6/2/2022
+29,El Huevo,95,24,30/09/2017
+30,Sala La Rivera,53,,21/12/2020
+31,Arena Ludwingsburg,10,,23/01/2021
+32,HISTORY,80,,27/03/2017
+33,Teatro CaupolicÃ¡n,86,23,8/5/2018
+34,UBS Arena,226,,23/05/2021
+35,Teatro Cariola,218,22,19/07/2019
+36,Estadio Nacional,129,,17/08/2018
+37,Estadio ANZ,39,4,28/07/2019
+38,Estadio Bicentario de La Florida,129,,15/10/2021
+39,Kursaal Oostende,123,,12/4/2018
+40,LAUT,245,,10/8/2019
+41,Teatro Coliseo,27,23,20/04/2018
+42,Vivo Rio,213,,26/02/2016
+43,Teatro Colon,79,,9/12/2019
+44,SOF Q8 Toinha Brasil,140,5,8/9/2019
+45,Radio City Music Hall,237,,11/4/2016
+46,The Anthem,226,2,16/06/2016
+47,Vivo Rio,213,,26/02/2016
+48,Club Subterraneo,48,,24/10/2022
+49,Youtube Theatre,226,,22/05/2018
+50,Festhalle,36,,14/08/2021
+51,Powerstation 33,83,21,30/05/2016
+52,Club Providencia,205,,6/8/2019
+53,Pabellon Max Schmeling,227,,9/5/2020
+54,SALA SANTANA,245,,18/04/2021
+55,Estadio Monumental,94,29,1/12/2019
+56,Studio The Venue,234,,7/3/2020
+57,Estadio Rose Bowl,92,,12/8/2017
+58,Irving Plaza,102,,5/11/2020
+59,Estadio Monumental,139,18,16/06/2016
+60,Arena TSB Bank,243,,8/7/2021
+61,Days Bay Pavilion,83,,28/03/2020
+62,Estadio Nacional,147,,10/10/2021
+63,Days Bay Pavilion,234,9,8/2/2018
+64,Columbianhalle,36,11,10/10/2020
+65,Sala La Rivera,53,7,8/7/2022
+66,Shubert Theatre,102,,21/06/2020
+67,Sala Apolo,53,6,3/7/2019
+68,Salitre Magico,158,6,17/12/2022
+69,Teatro TeletÃ³n,17,,11/12/2016
+70,Thunder Bay,80,,8/9/2022
+71,Cirque Royal,5,15,16/07/2021
+72,The Fillmore Philadelphia,53,,28/03/2017
+73,Teatro Municipal de Santiago,218,16,16/09/2022
+74,Teatro Municipal de Santiago,134,10,25/09/2021
+75,Salitre Magico,135,22,7/12/2019
+76,Warehouse Live,237,,26/02/2020
+77,El Huevo,218,,8/11/2022
+78,Pabellon Max Schmeling,227,,9/5/2020
+79,Jeunesse Arena,75,,13/07/2018
+80,Espacio Unimed,75,,8/1/2016
+81,Vivo Rio,213,,26/02/2016
+82,Air Canada Centre,67,,12/5/2021
+83,Opera de Sidney,22,,10/2/2019
+84,Metropol,36,4,1/6/2020
+85,UBS Arena,241,,2/3/2018
+86,Radio City Music Hall,237,,11/4/2016
+87,Barclaycard Arena,163,12,19/12/2017
+88,Parque Bicentenario Cerrillos,164,,12/7/2018
+89,La Marina de Valencia,51,,23/03/2022
+90,Teatro Municipal de Santiago,129,15,18/09/2020
+91,Raley Field,102,,17/04/2017
+92,Velodromo de Berlin,123,,9/10/2018
+93,Sala La Rivera,51,,20/06/2018
+94,Estadio Nacional,104,25,14/01/2020
+95,Palau Sant Jordi,53,,26/07/2022
+96,Teatro Cariola,59,,28/01/2022
+97,Estadio Bicentario de La Florida,217,,27/11/2018
+98,FirstOntario Centre,168,,7/7/2019
+99,Club RBX,78,,11/12/2016
+100,Quinta Vergara,205,,21/07/2016
+101,Carioca Club,124,1,29/07/2018
+102,Dodger Stadium,237,,25/06/2022
+103,Aotea Centre,243,,24/07/2016
+104,Radio City Music Hall,53,,28/08/2019
+105,Bikini Barcelona,53,5,19/04/2020
+106,The Anthem,231,7,29/01/2018
+107,Don Haskins Center,237,,8/12/2018
+108,Movistar Arena,202,,7/8/2019
+109,Trafalgar Centre Paru,240,,4/1/2022
+110,ZAG Arena,93,,17/02/2016
+111,"Stage Live, Kalea",149,,7/4/2016
+112,Arena Ludwingsburg,163,20,22/02/2017
+113,Gran Arena Monticello,57,,19/07/2016
+114,Freiheitshalle,163,26,3/4/2022
+115,Arena TSB Bank,236,,24/09/2019
+116,Estadio ANZ,206,,21/06/2016
+117,Shubert Theatre,242,,2/8/2020
+118,Estadio Unico Diego Armando Maradona,202,,15/03/2016
+119,Espacio Unimed,146,,15/02/2016
+120,Independance Club,245,24,28/2/2021
+121,Vivo Rio,213,,26/02/2016
+122,Mercedes-Benz Arena,50,3,11/9/2020
+123,The Brooklyn Monarch,241,,25/08/2019
+124,Luna Park,137,,2/5/2021
+125,Columbianhalle,36,,6/2/2020
+126,Gran Arena Monticello,106,,29/06/2016
+127,Niceto Club,81,21,11/1/2017
+128,Teatro Municipal de Santiago,0,,10/6/2022
+129,Metropolitano Rosario,77,,7/11/2020
+130,Teatro TeletÃ³n,17,,11/12/2016
+131,Thunder Bay,80,27,9/7/2022
+132,Warehouse Live,102,,2/4/2022
+133,Teatro Colon,229,4,29/05/2021
+134,Teatro Mayor,72,7,29/05/2022
+135,Cupula Multiespacio,134,,13/11/2017
+136,Sala La Rivera,51,,20/06/2018
+137,Aotea Centre,83,,24/02/2021
+138,Antel Arena,229,,8/2/2022
+139,Raley Field,242,28,2/3/2017
+140,Palau Sant Jordi,53,,6/9/2017
+141,Warehouse Live,231,,12/1/2016
+142,Sala La Rivera,51,,20/06/2018
+143,Thunder Bay,80,,16/02/2020
+144,Sala Apolo,53,18,26/02/2016
+145,Estadio Unico Diego Armando Maradona,202,,15/03/2016
+146,Club Subterraneo,129,,1/10/2020
+147,Estadio Unico Diego Armando Maradona,202,,15/03/2016
+148,Club Subterraneo,108,,6/11/2019
+149,Teatro Gran Rex,79,,2/2/2017
+150,Luna Park,137,29,15/05/2021
+151,Moon Valencia,220,,15/02/2016
+152,Arena TSB Bank,243,13,16/01/2017
+153,Chango Club,149,,11/8/2018
+154,Columbianhalle,227,27,19/12/2022
+155,Vivo Rio,213,,26/02/2016
+156,La Madeleine,155,,28/01/2017
+157,Mercedes-Benz Arena,230,24,4/10/2016
+158,Olympiahalle,29,,16/08/2016
+159,Espacio Riesco,165,,22/12/2017
+160,Lanxess Arena,66,,1/3/2018
+161,Crypto.com Arena,103,,17/04/2022
+162,Gran Arena Monticello,129,,21/10/2016
+163,Phoenix Concert Theatre,29,,11/9/2021
+164,Olympiahalle,29,,16/08/2016
+165,Estadio Rose Bowl,212,15,17/07/2022
+166,Aussie Stadium,206,,20/04/2016
+167,Casino de ViÃ±a del Mar,108,,1/1/2022
+168,E-Werk,36,,30/01/2016
+169,Shubert Theatre,53,,10/5/2021
+170,Trafalgar Centre Paru,243,16,9/6/2020
+171,Club Subterraneo,48,,24/10/2022
+172,Teatro Municipal de Valparaiso,85,19,7/7/2018
+173,City Hall el Rodeo,15,,28/03/2016
+174,Teatro TeletÃ³n,17,,11/12/2016
+175,Palacio de las Artes,51,,28/2/2019
+176,Club Subterraneo,48,,24/10/2022
+177,Niceto Club,79,,12/11/2021
+178,Pabellon Max Schmeling,227,,9/5/2020
+179,Hipodromo de Palermo,81,19,24/08/2017
+180,Arena TSB Bank,240,26,6/5/2018
+181,Estadio ANZ,5,,7/9/2021
+182,Cupula Multiespacio,129,2,21/08/2018
+183,Olympiahalle,29,,16/08/2016
+184,Estadio Rose Bowl,53,,11/8/2022
+185,Palau Sant Jordi,53,31,1/3/2018
+186,HISTORY,5,30,14/05/2022
+187,Movistar Arena,218,0,5/4/2019
+188,Club Subterraneo,129,,18/02/2018
+189,Gran Arena Monticello,37,,7/5/2016
+190,Sala But,149,,17/12/2019
+191,Luna Park,223,,27/02/2020
+192,Teatro TeletÃ³n,185,31,18/01/2021
+193,Luna Park,137,,9/6/2016
+194,Palau Sant Jordi,51,25,20/04/2019
+195,Mercedes-Benz Arena,50,8,29/11/2022
+196,WIZink Center,149,23,4/11/2021
+197,Sala La Rivera,51,,20/06/2018
+198,Kursaal Oostende,6,,29/04/2019
+199,SOF Q8 Toinha Brasil,124,,9/8/2020
+200,Estadio Unico Diego Armando Maradona,202,,15/03/2016
+201,SALA SANTANA,51,,16/06/2020
+202,Warehouse Live,226,,3/2/2021
+203,Air Canada Centre,67,,18/10/2020
+204,La Madeleine,155,,10/9/2021
+205,Teatro Municipal de Santiago,61,10,14/09/2022
+206,Club Subterraneo,48,,24/10/2022
+207,Salitre Magico,224,,23/10/2019
+208,Estadio Rose Bowl,103,,13/07/2017
+209,Vivo Rio,213,,26/02/2016
+210,Days Bay Pavilion,160,,3/3/2021
+211,Wilterm Theatre,53,30,16/08/2017
+212,Estadio Nacional,129,,17/08/2018
+213,City Hall el Rodeo,44,8,3/3/2016
+214,Niceto Club,104,9,22/07/2021
+215,Aotea Centre,236,,5/1/2021
+216,Teatro Gran Rex,79,,24/07/2020
+217,La Marina de Valencia,53,20,22/03/2022
+218,Estadio Unico Diego Armando Maradona,202,,15/03/2016
+219,Velodromo de Berlin,174,,19/09/2022
+220,Estadio de Futbol Atanasio Girardot,63,,4/9/2018
+221,Estadio Nacional,129,,17/08/2018
+222,Vivo Rio,213,,26/02/2016
+223,Club Chocolate,185,28,6/4/2022
+224,Moon Valencia,51,,30/09/2019
+225,Teatro Municipal de Valparaiso,141,,17/02/2020
+226,Estadio Santa Laura,95,,16/12/2016
+227,Fundo Colmito,76,,15/12/2021
+228,Canadian Tire Centre,214,,7/10/2020
+229,WIZink Center,166,0,26/09/2017
+230,Studio The Venue,160,,29/05/2020
+231,Shubert Theatre,241,17,8/5/2017
+232,Carrer Baix Vinalopo,166,13,14/02/2021
