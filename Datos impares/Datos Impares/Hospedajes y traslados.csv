@@ -13,7 +13,7 @@ SDV-98120,SANTIAGO,Sheraton Santiago,TERRESTRE,,,132,,,9/1/2018,13/1/2018
 OFN-32107,NUEVA YORK,Park Lane NYC,AEREO,Aeropuerto Internacional de Berlin,Aeropuerto Internacional de NYC,85,19:28,12:24,17/9/2022,17/9/2022
 VGW-13539,AUCKLAND,Heritage Homestay,TERRESTRE,,,60,,,10/5/2021,15/5/2021
 NVN-73735,FRANKFURT,The Flag,MIXTO,Aeropuerto de Cologne,Aeropuerto Internacional de Frankfurt,74,2:19,19:41,24/8/2019,25/8/2019
-ISX-23696,VIÃ‘A DEL MAR,Sheraton Miramar,TERRESTRE,,,112,,,30/5/2018,3/6/2018
+ISX-23696,VIÑA DEL MAR,Sheraton Miramar,TERRESTRE,,,112,,,30/5/2018,3/6/2018
 QYA-71542,SANTIAGO,Courtyard by Marriot,TERRESTRE,,,197,,,16/10/2019,19/10/2019
 TIS-96949,NUEVA YORK,Millenium Hotel,TERRESTRE,,,161,,,13/5/2021,14/5/2021
 VQO-43444,MIAMI,The Altair Bay Hotel,MIXTO,Aeropuerto Internacional de Auckland,Aeropuerto Internacional de Miami,140,5:36,5:39,8/11/2019,12/11/2019
@@ -28,7 +28,7 @@ ASO-28849,BOSTON,Wyndham Boston,MIXTO,Aeropuerto Internacional de Auckland,Aerop
 TFO-66669,VALPARAISO,Hotel WineBox,TERRESTRE,,,125,,,17/7/2022,22/7/2022
 HUQ-88012,WELLINGTON,Rydges Wellington,TERRESTRE,,,183,,,8/4/2018,10/4/2018
 NFL-56112,NUEVA YORK,Millenium Hotel,TERRESTRE,,,102,,,18/4/2020,20/4/2020
-QVB-39326,VIÃ‘A DEL MAR,Sheraton Miramar,TERRESTRE,,,136,,,22/3/2020,27/3/2020
+QVB-39326,VIÑA DEL MAR,Sheraton Miramar,TERRESTRE,,,136,,,22/3/2020,27/3/2020
 WPI-84033,ONTARIO,Ontario Hotel,AEREO,Aeropuerto de Newtown,Aeropuerto de Ontario,138,11:16,7:30,10/3/2021,11/3/2021
 YPT-93219,VALPARAISO,CasaBlu Hotel,MIXTO,Aeropuerto Internacional de Sidney,Aeropuerto Arturo Merino Benitez,13,11:45,1:52,20/10/2021,21/10/2021
 ZRK-71919,SAO PAULO,Sheraton Sao Paulo,MIXTO,Aeropuerto Arturo Merino Benitez,Aeropuerto Internacional de Sao Paulo,108,19:34,12:16,20/10/2021,23/10/2021
@@ -69,7 +69,7 @@ LNB-95863,SAO PAULO,Riu Sao Paulo,TERRESTRE,,,78,,,9/7/2021,9/7/2021
 ZGJ-41292,MEDELLIN,Selvario 36,TERRESTRE,,,191,,,5/2/2020,10/2/2020
 XBA-14521,BUENOS AIRES,Esplendor By Wytham,TERRESTRE,,,88,,,14/12/2020,14/12/2020
 GYS-46151,RIO DE JANEIRO,Sheraton Rio de Janeiro,TERRESTRE,,,150,,,25/9/2018,26/9/2018
-MIZ-62212,VIÃ‘A DEL MAR,Gala Hotel,MIXTO,Aeropuerto de Medellin,Aeropuerto Arturo Merino Benitez,78,7:21,19:38,12/1/2022,17/1/2022
+MIZ-62212,VIÑA DEL MAR,Gala Hotel,MIXTO,Aeropuerto de Medellin,Aeropuerto Arturo Merino Benitez,78,7:21,19:38,12/1/2022,17/1/2022
 ULF-54877,NELSON,Nelson Plaza Hotel,TERRESTRE,,,144,,,10/11/2021,14/11/2021
 JGX-17421,RIO DE JANEIRO,TBA Rio de Janeiro,TERRESTRE,,,134,,,24/4/2018,27/4/2018
 USB-43215,SYDNEY,HUB Sydney,AEREO,Aeropuerto Internacional de Boston,Aeropuerto Internacional de Sidney,103,7:45,23:35,5/1/2022,8/1/2022
@@ -118,7 +118,7 @@ XYJ-49624,BUENOS AIRES,Palacio Paz,AEREO,Aeropuerto Internacional de Denver,Aero
 UFE-34774,RIO DE JANEIRO,Park Lane RDJ,TERRESTRE,,,177,,,27/4/2019,28/4/2019
 ODO-30998,LOS ANGELES,Hotel Normandie,TERRESTRE,,,2,,,30/12/2022,3/1/2023
 BSR-56072,HAMBURG,Reichshof,MIXTO,Aeropuerto Arturo Merino Benitez,Aeropuerto de Hamburg,199,22:43,15:19,26/2/2022,28/2/2022
-FUE-43931,VIÃ‘A DEL MAR,Best Western Marina del Rey,TERRESTRE,,,27,,,30/1/2019,2/2/2019
+FUE-43931,VIÑA DEL MAR,Best Western Marina del Rey,TERRESTRE,,,27,,,30/1/2019,2/2/2019
 YJA-77186,BERLIN,Radisson Berlin,MIXTO,Aeropuerto Internacional de Auckland,Aeropuerto Internacional de Berlin,172,18:23,15:40,11/11/2019,16/11/2019
 XOA-84288,BARCELONA,Acta Voraport,MIXTO,Aeropuerto Internacional de Auckland,Aeropuerto Internacional de Barcelona,116,18:20,10:34,28/3/2019,31/3/2019
 NKH-76954,NUEVA YORK,Sheraton New York,TERRESTRE,,,35,,,14/10/2022,15/10/2022
