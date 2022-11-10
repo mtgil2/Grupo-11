@@ -25,7 +25,7 @@
   $dataCollected = $result -> fetchAll();
   ?>
 
-  <form align="center" action="consulta2.php" method="post">
+  <form align="center" action="consultas/consulta2.php" method="post">
     Seleccione a un Artista:
     <select name="nombre">
       <?php
