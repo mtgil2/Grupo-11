@@ -6,7 +6,7 @@
   require("../config/conexion.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
 
   $var = $_POST["tipo"];
-  $query = "SELECT * FROM pokemones WHERE tipo='$var';";
+  $query = "SELECT h.nombre_hotel COUNT (*) AS estadias FROM Artista AS a, Hospedaje AS h, WHERE a.nombre_escenico = 'nombre_input' AND a.id_artista = h.id_artista GROUP BY h.nombre_hotel);";
   $result = $db -> prepare($query);
   $result -> execute();
   $dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo

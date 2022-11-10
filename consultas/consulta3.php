@@ -10,7 +10,7 @@
   $altura = intval($altura);
 
   #Se construye la consulta como un string
- 	$query = "SELECT id, nombre, altura FROM pokemones where altura>=$altura order by altura desc;";
+ 	$query = "SELECT tour.nombre FROM Tour, Artista, Eventos where Artista.nombre = 'nombre_entregado' AND Artista.id_tour = Tour.id_tour AND Tour.fecha_inicio = (SELECT MAX(fecha_inicio) FROM Tour);";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
