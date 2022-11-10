@@ -5,7 +5,7 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
-  $nombre = _POST["nombre"];
+  $nombre = $_POST["nombre"];
 
  	$query = "SELECT COUNT id_entrada FROM Entrada, Artista WHERE Entrada.id_artista = Artista.id_artista AND Artista.nombre_escenico = '$nombre';";
 	$result = $db -> prepare($query);
