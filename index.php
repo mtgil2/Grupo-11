@@ -44,12 +44,26 @@
 
   <h3 align="center"> ¿Quieres conocer los Pokemones más altos que: ?</h3>
 
-  <form align="center" action="consultas/consulta_altura.php" method="post">
-    Altura Mínima:
-    <input type="text" name="altura">
-    <br/><br/>
+  <?php require("config/conexion.php");
+  $result = $db -> prepare("SELECT DISTINCT nombre_escenico FROM Artista ORDER BY nombre_escenico ASC;");
+  $result -> execute();
+  $dataCollected = $result -> fetchAll();
+  ?>
+
+  <form align="center" action="consultas/consulta3.php" method="post">
+    Seleccione a un Artista:
+    <select name="nombre">
+      <?php
+      #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
+      foreach ($dataCollected as $d) {
+        echo '<option value="'.$d[0].'">'.$d[0].'</option>';
+      }
+      ?>
+    </select>
+    <br><br>
     <input type="submit" value="Buscar">
   </form>
+  
   <br>
   <br>
   <br>
@@ -64,21 +78,237 @@
   $dataCollected = $result -> fetchAll();
   ?>
 
-  <form align="center" action="consultas/consulta_tipo.php" method="post">
-    Seleccinar un tipo:
-    <select name="tipo">
+<?php require("config/conexion.php");
+  $result = $db -> prepare("SELECT DISTINCT nombre_escenico FROM Artista ORDER BY nombre_escenico ASC;");
+  $result -> execute();
+  $dataCollected = $result -> fetchAll();
+  ?>
+
+  <form align="center" action="consultas/consulta2.php" method="post">
+    Seleccione a un Artista:
+    <select name="nombre">
       <?php
       #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
       foreach ($dataCollected as $d) {
-        echo "<option value=$d[0]>$d[0]</option>";
+        echo '<option value="'.$d[0].'">'.$d[0].'</option>';
       }
       ?>
     </select>
     <br><br>
-    <input type="submit" value="Buscar por tipo">
+    <input type="submit" value="Buscar">
   </form>
-
   <br>
+  <br>
+  <br>
+  <br>
+
+  <h3 align="center">¿Quieres buscar todos los pokemones por tipo?</h3>
+
+<?php
+#Primero obtenemos todos los tipos de pokemones
+require("config/conexion.php");
+$result = $db -> prepare("SELECT DISTINCT tipo FROM pokemones;");
+$result -> execute();
+$dataCollected = $result -> fetchAll();
+?>
+
+<?php require("config/conexion.php");
+$result = $db -> prepare("SELECT DISTINCT nombre_escenico FROM Artista ORDER BY nombre_escenico ASC;");
+$result -> execute();
+$dataCollected = $result -> fetchAll();
+?>
+
+<form align="center" action="consultas/consulta2.php" method="post">
+  Seleccione a un Artista:
+  <select name="nombre">
+    <?php
+    #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
+    foreach ($dataCollected as $d) {
+      echo '<option value="'.$d[0].'">'.$d[0].'</option>';
+    }
+    ?>
+  </select>
+  <br><br>
+  <input type="submit" value="Buscar">
+</form>
+<br>
+<br>
+<br>
+<br>
+<h3 align="center">¿Quieres buscar todos los pokemones por tipo?</h3>
+
+<?php
+#Primero obtenemos todos los tipos de pokemones
+require("config/conexion.php");
+$result = $db -> prepare("SELECT DISTINCT tipo FROM pokemones;");
+$result -> execute();
+$dataCollected = $result -> fetchAll();
+?>
+
+<?php require("config/conexion.php");
+$result = $db -> prepare("SELECT DISTINCT nombre_escenico FROM Artista ORDER BY nombre_escenico ASC;");
+$result -> execute();
+$dataCollected = $result -> fetchAll();
+?>
+
+<form align="center" action="consultas/consulta2.php" method="post">
+  Seleccione a un Artista:
+  <select name="nombre">
+    <?php
+    #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
+    foreach ($dataCollected as $d) {
+      echo '<option value="'.$d[0].'">'.$d[0].'</option>';
+    }
+    ?>
+  </select>
+  <br><br>
+  <input type="submit" value="Buscar">
+</form>
+<br>
+<br>
+<br>
+<br>
+<h3 align="center">¿Quieres buscar todos los pokemones por tipo?</h3>
+
+<?php
+#Primero obtenemos todos los tipos de pokemones
+require("config/conexion.php");
+$result = $db -> prepare("SELECT DISTINCT tipo FROM pokemones;");
+$result -> execute();
+$dataCollected = $result -> fetchAll();
+?>
+
+<?php require("config/conexion.php");
+$result = $db -> prepare("SELECT DISTINCT nombre_escenico FROM Artista ORDER BY nombre_escenico ASC;");
+$result -> execute();
+$dataCollected = $result -> fetchAll();
+?>
+
+<form align="center" action="consultas/consulta2.php" method="post">
+  Seleccione a un Artista:
+  <select name="nombre">
+    <?php
+    #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
+    foreach ($dataCollected as $d) {
+      echo '<option value="'.$d[0].'">'.$d[0].'</option>';
+    }
+    ?>
+  </select>
+  <br><br>
+  <input type="submit" value="Buscar">
+</form>
+<br>
+<br>
+<br>
+<br>
+<h3 align="center">¿Quieres buscar todos los pokemones por tipo?</h3>
+
+<?php
+#Primero obtenemos todos los tipos de pokemones
+require("config/conexion.php");
+$result = $db -> prepare("SELECT DISTINCT tipo FROM pokemones;");
+$result -> execute();
+$dataCollected = $result -> fetchAll();
+?>
+
+<?php require("config/conexion.php");
+$result = $db -> prepare("SELECT DISTINCT nombre_escenico FROM Artista ORDER BY nombre_escenico ASC;");
+$result -> execute();
+$dataCollected = $result -> fetchAll();
+?>
+
+<form align="center" action="consultas/consulta2.php" method="post">
+  Seleccione a un Artista:
+  <select name="nombre">
+    <?php
+    #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
+    foreach ($dataCollected as $d) {
+      echo '<option value="'.$d[0].'">'.$d[0].'</option>';
+    }
+    ?>
+  </select>
+  <br><br>
+  <input type="submit" value="Buscar">
+</form>
+<br>
+<br>
+<br>
+<br>
+<h3 align="center">¿Quieres buscar todos los pokemones por tipo?</h3>
+
+<?php
+#Primero obtenemos todos los tipos de pokemones
+require("config/conexion.php");
+$result = $db -> prepare("SELECT DISTINCT tipo FROM pokemones;");
+$result -> execute();
+$dataCollected = $result -> fetchAll();
+?>
+
+<?php require("config/conexion.php");
+$result = $db -> prepare("SELECT DISTINCT nombre_escenico FROM Artista ORDER BY nombre_escenico ASC;");
+$result -> execute();
+$dataCollected = $result -> fetchAll();
+?>
+
+<form align="center" action="consultas/consulta2.php" method="post">
+  Seleccione a un Artista:
+  <select name="nombre">
+    <?php
+    #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
+    foreach ($dataCollected as $d) {
+      echo '<option value="'.$d[0].'">'.$d[0].'</option>';
+    }
+    ?>
+  </select>
+  <br><br>
+  <input type="submit" value="Buscar">
+</form>
+<br>
+<br>
+<br>
+<br>
+<h3 align="center">¿Quieres buscar todos los pokemones por tipo?</h3>
+
+<?php
+#Primero obtenemos todos los tipos de pokemones
+require("config/conexion.php");
+$result = $db -> prepare("SELECT DISTINCT tipo FROM pokemones;");
+$result -> execute();
+$dataCollected = $result -> fetchAll();
+?>
+
+<?php require("config/conexion.php");
+$result = $db -> prepare("SELECT DISTINCT nombre_escenico FROM Artista ORDER BY nombre_escenico ASC;");
+$result -> execute();
+$dataCollected = $result -> fetchAll();
+?>
+
+<form align="center" action="consultas/consulta2.php" method="post">
+  Seleccione a un Artista:
+  <select name="nombre">
+    <?php
+    #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
+    foreach ($dataCollected as $d) {
+      echo '<option value="'.$d[0].'">'.$d[0].'</option>';
+    }
+    ?>
+  </select>
+  <br><br>
+  <input type="submit" value="Buscar">
+</form>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<h3 align="center"> ¿Quieres ver al artista con mas entradas?</h3>
+
+  <form align="center" action="consultas/consulta7.php" method="post"> 
+    <br/><br/>
+    <input type="submit" value="Buscar">
+  </form>
   <br>
   <br>
   <br>
