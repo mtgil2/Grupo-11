@@ -45,7 +45,7 @@
   <h3 align="center"> ¿Quieres los datos del ultimo tour?</h3>
 
   <?php require("config/conexion.php");
-  $result = $db -> prepare("SELECT tour_nombre FROM Artista, Tour, Eventos WHERE Artista.nombre_escenico = '$nombre' AND Artista.id_tour = Tour.id_tour AND Tour.fecha_inicio = (SELECT MAX(fecha_inicio) FROM TOUR) ASC;");
+  $result = $db -> prepare("SELECT tour.nombre_tour FROM Artista, Tour, Eventos WHERE Artista.nombre_escenico = '$nombre' AND Artista.id_tour = Tour.id_tour AND Tour.fecha_inicio = (SELECT MAX(fecha_inicio) FROM TOUR) ASC;");
   $result -> execute();
   $dataCollected = $result -> fetchAll();
   ?>
