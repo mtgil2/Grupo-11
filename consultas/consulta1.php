@@ -6,7 +6,7 @@
   require("../config/conexion.php");
 
 
- 	$query = "SELECT nombre_escenico,telefono FROM Artista);";
+ 	$query = "SELECT nombre_escenico,telefono FROM Artista;";
 	$result = $db -> prepare($query);
 	$result -> execute();
 	$artistas = $result -> fetchAll();
