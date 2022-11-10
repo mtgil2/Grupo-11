@@ -7,8 +7,8 @@
 
   $nombre = $_POST["nombre"];
 
- 	$query = "SELECT COUNT id_entrada FROM Entrada, Artista WHERE Entrada.id_artista = Artista.id_artista AND Artista.nombre_escenico = '$nombre';";
-	$result = $db -> prepare($query);
+ 	$query = "SELECT COUNT id_entrada FROM Entrada, Artista WHERE Entrada.id_artista = Artista.id_artista AND LOWER(Artista.nombre_escenico) = LOWER('$nombre');";
+  $result = $db -> prepare($query);
 	$result -> execute();
 	$artistas = $result -> fetchAll();
   ?>
