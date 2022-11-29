@@ -1,7 +1,7 @@
 <?php include('./templates/header.html');   ?>
     <body>
         <div class='main'>
-            <h1 class='title'>Probando pc felipe
+            <h1 class='title'>Hola que pasa 
               
             </h1>
             <div class='container'>
