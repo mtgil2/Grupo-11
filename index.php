@@ -9,7 +9,7 @@
                 </form>
             </div>
             <div class='container'>
-                <h3>Ver base de datos 2</h3>
+                <h3>Ver Vicente y Felipe</h3>
                 <form  action='./queries/bdd2.php' method='GET'>
                     <input class='btn' type='submit' value='Consultar'>
                 </form>
