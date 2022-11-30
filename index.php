@@ -1,4 +1,4 @@
-<?php include('./templates/header.html');   ?>
+<?php include('templates/header.html');   ?>
     <body>
         <div class='main'>
 
@@ -123,4 +123,5 @@
         </footer>
 
     </body>
+    <?php include('templates/footer.html');   ?>
 </html>
