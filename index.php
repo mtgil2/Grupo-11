@@ -116,11 +116,7 @@
                 </form>
             </div>
         </div>
-        <footer>
-            <p>
-                IIC2413 - Ayudantía 3 BDD
-            </p>
-        </footer>
+
 
     </body>
     <?php include('templates/footer.html');   ?>
