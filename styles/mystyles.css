@@ -3859,7 +3859,7 @@ tr:nth-child(even) {
     padding: 0.5rem 1rem;
     margin-bottom: 0;
     font-size: 0.875rem;
-    color: #6c757d;
+    color: #3e586e;
     white-space: nowrap;
   }
   
@@ -3895,7 +3895,7 @@ tr:nth-child(even) {
     color: #dee2e6;
   }
   .dropdown-menu-dark .dropdown-header {
-    color: #adb5bd;
+    color: #496683;
   }
   
   .btn-group,
@@ -11568,4 +11568,11 @@ tr:nth-child(even) {
   
   .copyright {
     background-color: #1a252f;
+  }
+
+  .head {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: black;
+    color: #fff;
   }
