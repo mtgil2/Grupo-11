@@ -1,9 +1,13 @@
 <?php include('./templates/header.html');   ?>
     <body>
         <div class='main'>
+<<<<<<< HEAD
             <h1 class='title'>Hola que pasa 
               
             </h1>
+=======
+            <h1 class='title'>Arreglando Felipe</h1>
+>>>>>>> 55be7ea46108c87eb020da04e04fdaac12d6ec3b
             <div class='container'>
                 <h3>Ver base de datos 1</h3>
                 <form  action='./queries/bdd1.php' method='GET'>
