@@ -1,9 +1,7 @@
 <?php include('./templates/header.html');   ?>
     <body>
         <div class='main'>
-            <h1 class='title'>Probando pc felipe
-              
-            </h1>
+            <h1 class='title'>Arreglando Felipe</h1>
             <div class='container'>
                 <h3>Ver base de datos 1</h3>
                 <form  action='./queries/bdd1.php' method='GET'>
