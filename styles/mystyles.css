@@ -2355,7 +2355,7 @@ tr:nth-child(even) {
     -webkit-margin-end: 0.75rem;
             margin-inline-end: 0.75rem;
     color: #212529;
-    background-color: #e9ecef;
+    background-color: #507da9;
     pointer-events: none;
     border-color: inherit;
     border-style: solid;
@@ -2551,8 +2551,7 @@ tr:nth-child(even) {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
-    -webkit-print-color-adjust: exact;
-            color-adjust: exact;
+
   }
   .form-check-input[type=checkbox] {
     border-radius: 0.25em;
