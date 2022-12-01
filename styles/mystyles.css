@@ -20,7 +20,7 @@ input[type = submit]:hover{
   background-color: #066173;
 }
 
-button.button {
+button {
     background-color: rgb(207, 201, 172);
 
     border: none;
