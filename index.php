@@ -33,7 +33,7 @@ require_once "./__init__.php";
   <section class="section" >
     <div>
       <form class="buttons" action="consultas/importar_datos.php">
-      <div class="button" style = "background-color: blue" type="submit" name="Importar">Importar datos</div>
+      <button class="button" style = "background-color: blue" type="submit" name="Importar">Importar datos</button>
       </form>
   </div>
   </section>
