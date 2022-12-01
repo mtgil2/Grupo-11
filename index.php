@@ -31,11 +31,11 @@ require_once "./__init__.php";
 
 
   <section class="section" >
-    <div class="columns is-mobile is-centered is-vcentered cover-all">
+    <div>
       <form class="buttons" action="consultas/importar_datos.php">
       <button class="button" type="submit" name="Importar">Importar datos</button>
       </form>
-    </div> 
+  </div>
   </section>
 
   <section class="section">
