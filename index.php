@@ -37,7 +37,7 @@ require_once "./__init__.php";
       </form>
   </div>
   </section>
-  <button class="button"  type="submit" name="Importar">Importar datos</button>
+  
   <section class="section">
 
     <div class="columns is-mobile is-centered is-vcentered cover-all">
