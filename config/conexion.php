@@ -17,7 +17,7 @@
 
     #AME Y CONI
 $db = new PDO(
-  "pgsql:dbname=$databaseName1;host=localhost;port=5432;user=$user;password=$password"
+  "pgsql:dbname=$databaseName;host=localhost;port=5432;user=$user;password=$password"
 );
 
 #BELU Y AME
