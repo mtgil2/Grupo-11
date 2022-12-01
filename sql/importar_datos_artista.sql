@@ -30,7 +30,7 @@ BEGIN
 
     i := j;
     -- FOR tupla IN (SELECT * FROM dblink('dbname=grupo61e3 user=grupo61 password=divinas123 port=5432','SELECT * FROM companias') AS f(codigo char, nombre varchar))
-    FOR tupla2 IN (SELECT * FROM productora)
+    FOR tupla2 IN (SELECT * FROM artista)
     LOOP
         nombre_minuscula := LOWER(tupla.nombre_escenico)
         nombre_final := REPLACE(nombre_minuscula, ' ', '_')
