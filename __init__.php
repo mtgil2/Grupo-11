@@ -31,7 +31,7 @@ function go_home() {
 
 
 <!--CODIGO PROYECTO BELEN -->
-
+<!--
 require_once __DIR__ . "/config/data.php";
 
 // Se conecta a la BDD
@@ -49,4 +49,8 @@ session_start();
 function go_home() {
   header('Refresh: 0; url = ./index.php');
   exit();
+
+
 }
+
+-->
