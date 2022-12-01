@@ -42,7 +42,7 @@ $info_prov4 = $result4 -> fetchAll();
       </tr>
     <?php 
   
-    foreach ($info_prov3 as $v) {
+    foreach ($info_prov4 as $v) {
         echo "<tr><td>$v[0]</td><td>$v[1]</td><td>$v[2]</td><td>$v[3]</td><td>";
     }
       
