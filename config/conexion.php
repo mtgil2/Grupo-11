@@ -15,12 +15,12 @@
     #}
 
 
-    #AME Y CONI
+#Trini Tere
 $db = new PDO(
   "pgsql:dbname=$databaseName;host=localhost;port=5432;user=$user;password=$password"
 );
 
-#BELU Y AME
+#Felipe Viccente
 $db2 = new PDO(
   "pgsql:dbname=$databaseName2;host=localhost;port=5432;user=$user2;password=$password2"
 );

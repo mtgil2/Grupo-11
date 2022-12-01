@@ -6,4 +6,3 @@
   $user2 = 'grupo12';
   $password2 = 'grupo12';
   $databaseName2 = 'grupo12e3';
-?>
