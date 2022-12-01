@@ -25,7 +25,7 @@ BEGIN
     FOR tupla1 in (SELECT * FROM usuarios)
 
     LOOP
-        j := j + 1
+        j := j + 1;
     END LOOP;
 
     i := j;
