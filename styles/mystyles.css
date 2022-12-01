@@ -10,13 +10,13 @@ input[type=text] {
     font-size: 20px;
 }
 
-input[type=submit] {
+.input[type=submit] {
     width: 10em;
     height: 2em;
     font-size: 50px;
     background-color: #087990;
 }
-input[type = submit]:hover{
+.input[type = submit]:hover{
   background-color: #066173;
 }
 
