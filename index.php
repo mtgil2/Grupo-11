@@ -50,7 +50,7 @@ require_once "./__init__.php";
               <input class="input" type="text" name="username">
             </div>
             <br>
-            <br>
+            
             <label class="label">Contraseña</label>
             <div class="control">
               <input class="input" type="password" name="password">
