@@ -10,7 +10,7 @@ require_once "./__init__.php";
 
 <section class="hero is-success is-halfheight pokebaner">
   <div class="hero-body">
-    <h1 class="title">TITULO PAGINA</h1>
+    <h1 class="title">Artistas y Productores</h1>
   </div>
 </section>
 
@@ -54,7 +54,8 @@ require_once "./__init__.php";
               <input class="input" type="password" name="password">
             </div>
           </div>
-
+<br>
+<br>
           <button class="button is-primary" type="submit" name="login">Login</button>
 
         </form>
