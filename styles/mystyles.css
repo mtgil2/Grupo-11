@@ -20,7 +20,7 @@ input[type = submit]:hover{
   background-color: #066173;
 }
 
-button {
+.button {
     background-color: rgb(207, 201, 172);
 
     border: none;
@@ -30,13 +30,13 @@ button {
     size: 30px;
 }
 
-button:hover{
+.button:hover{
   background-color: #eeee75;
 
 }
 
 h1 {
-    color: green;
+    color: rgb(125, 154, 125);
 }
 
 
