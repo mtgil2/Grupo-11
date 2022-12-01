@@ -24,7 +24,7 @@ BEGIN
     FOR tupla IN (SELECT * FROM productora)
     LOOP
         nombre_minuscula := LOWER(tupla.nombre_productora)
-        nombre_final := REPLACE(nombre_minuscula, ' ', '_')
+        nombre_final := REPLACE(nombre_minuscula, ' ', '_');
         contrasena := floor(random()*(200-100+1)+100);
         INSERT INTO usuarios values(i, nombre_final, contrasena, 'productora');
     

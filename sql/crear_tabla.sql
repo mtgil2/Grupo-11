@@ -7,7 +7,7 @@ crear_tabla ()
 RETURNS void AS $$
 
 -- declaramos las variables a utilizar si es que es necesario
-DECLARE
+
 
 -- definimos nuestra función
 BEGIN
@@ -15,7 +15,7 @@ BEGIN
     DROP TABLE IF EXISTS usuarios;
     CREATE TABLE IF NOT EXISTS usuarios (
     id         serial PRIMARY KEY,
-    username   varchar(20),
+    username   varchar(90),
     contrasena varchar(20),
     tipo       varchar(20)
     );
