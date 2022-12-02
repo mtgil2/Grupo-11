@@ -19,7 +19,7 @@
         $psw = rand(10000000, 99999999);
         $tipo = "artista";
         $query = "SELECT importar_usuarios('$username'::varchar, '$psw'::varchar, '$tipo'::varchar , $artista[1]);";
-        echo $query
+        echo $query;
 
 
 
