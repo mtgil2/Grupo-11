@@ -23,7 +23,7 @@ require_once "./__init__.php";
 }
   ?>
 
-<h2 class="title is-1"> Bienvenido artista <?php echo $nombre_artista $id_artista?>
+<h2 class="title is-1"> Bienvenido artista <?php echo $nombre_artista; $id_artista?>
 </h2>
 <?php
   
