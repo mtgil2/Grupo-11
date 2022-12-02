@@ -1,9 +1,15 @@
 <?php
 
+
     // Nos conectamos a las bdds
     require("../config/conexion.php");
     include('../templates/header.html');
 
+    
+    $query1 = "SELECT * FROM crear_tabla()";
+    $result1 = $db -> prepare($query1);
+    $result1 -> execute();
+    $informacion = $result1 -> fetchAll();
     //ARTISTAS
     $query = "SELECT nombre_escenico, id_artista FROM artista;";
     $result = $db -> prepare($query);
