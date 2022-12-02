@@ -22,7 +22,6 @@ $query4 = "SELECT * FROM usuarios";
 $result4 = $db -> prepare($query4);
 $result4 -> execute();
 $info_prov4 = $result4 -> fetchAll();
-console.log($result2);
 ?>
 
 

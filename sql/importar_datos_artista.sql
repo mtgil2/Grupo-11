@@ -35,7 +35,7 @@ BEGIN
         nombre_minuscula := LOWER(tupla2.nombre_escenico);
         nombre_final := REPLACE(nombre_minuscula, ' ', '_');
         contrasena := floor(random()*(200-100+1)+100);
-        INSERT INTO Usuarios values(i, nombre_final, contrasena, 'artista');
+        INSERT I Usuarios values(i, nombre_final, contrasena, 'artista');
     
         i := i + 1;
     END LOOP;
