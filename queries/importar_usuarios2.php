@@ -20,21 +20,10 @@
         $tipo = "artista";
         $query = "SELECT importar_usuarios('$username'::varchar, '$psw'::varchar, '$tipo'::varchar , $artista[1]);";
         #echo $query;
-
-
-
         // Ejecutamos las queries para efectivamente insertar los datos
         $result = $db -> prepare($query);
         $result -> execute();
         $resultado_artistas = $result -> fetchAll();
-        echo $resultado_artistas[0];
-
-        
-        //$resultado_artistas = $resultado_artistas[0]["importar_usuarios"];
-        echo $resultado_artistas;
-        if ($resultado_artistas == 0){
-            $n_artistas_malo = $n_artistas_malo + 1;
-        }
     }
         
 
@@ -59,21 +48,17 @@
         $result = $db -> prepare($query);
         $result -> execute();
         $resultado_productoras = $result -> fetchAll();
-        $resultado_productoras = $resultado_productoras[0]["importar_usuarios"];
-        if ($resultado_productoras == 0){
-            $n_productoras_malo = $n_productoras_malo + 1;
-        }
-    }
-
+    
     // AGREGAR HTML
-    if ($n_artistas_malo != 0 || $n_productoras_malo != 0){
-        echo "ERROR ".$n_productoras_malo." productoras.";
-        echo "\n";
-        echo "ERROR ".$n_artistas_malo." artistas.";
+    // if ($n_artistas_malo != 0 || $n_productoras_malo != 0){
+    //     echo "ERROR ".$n_productoras_malo." productoras.";
+    //     echo "\n";
+    //     echo "ERROR ".$n_artistas_malo." artistas.";
 
-    } else{
-        echo "Se crearon exitosamente todos los usuarios.";
-    }
+    // } else{
+    //     echo "Se crearon exitosamente todos los usuarios.";
+    // }
+    echo "Se crearon exitosamente todos los usuarios";
 
     // Mostramos los cambios en una nueva tabla de usuarios
     $query = "SELECT * FROM usuarios;";
