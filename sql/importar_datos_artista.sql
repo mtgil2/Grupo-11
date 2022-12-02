@@ -20,7 +20,7 @@ nombre_final varchar;
 BEGIN
 
     PERFORM setseed(1);
-    j := 0;
+    j := 1;
 
     FOR tupla1 in (SELECT * FROM Usuarios)
 
