@@ -16,7 +16,7 @@ require_once "./__init__.php";
 
 
 <br>
-
+<img src="./styles/coldplay-1.jpg" alt="HTML5 Icon" style="width:700px;height:480px; margin-top: -90px; padding-right: 100px; padding-bottom: 40px" align = "right">
 <section class="section">
   <?php if (isset($_SESSION['username'])) { ?>
     <!-- Se muestra un mensaje si hay una sesión de usuario -->
@@ -28,7 +28,7 @@ require_once "./__init__.php";
 
   <?php }} else { ?>
     <!-- En el caso que no, se muestran los botones para iniciar sesión -->
-    <img src="./styles/coldplay-1.jpg" alt="HTML5 Icon" style="width:700px;height:480px; margin-top: -90px; padding-right: 100px; padding-bottom: 40px" align = "right">
+   
 <div style = "padding-left: 70px">
   <section class="section" >
     <div>
