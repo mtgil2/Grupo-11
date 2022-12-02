@@ -17,7 +17,7 @@ input[type=text] {
     background-color: #087990;
 }
 .input[type = submit]:hover{
-  background-color: #2dadc6;
+  background-color: #83c7d4;
 }
 
 .button {
@@ -179,6 +179,7 @@ tr:nth-child(even) {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     line-height: 1.2;
+    color: #83c7d4;
   }
   
   h1, .h1 {
