@@ -60,4 +60,5 @@ function go_home() {
  *       que en la BDD, se podria modificar para poder elegir que nombre mostrar.
  *       [[Ver PDOStatement::fetch](https://www.php.net/manual/es/pdostatement.fetch.php)]
  *
- */ @param PDOStatement $query
+ * @param PDOStatement $query
+ * /
