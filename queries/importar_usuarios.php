@@ -6,7 +6,7 @@
 
     //ARTISTAS
     $query = "SELECT nombre_escenico, id_artista FROM artista;";
-    $result = $db1 -> prepare($query);
+    $result = $db -> prepare($query);
     $result -> execute();
     $artistas = $result -> fetchAll();
     $n_artistas_malo = 0;
@@ -23,7 +23,7 @@
 
 
         // Ejecutamos las queries para efectivamente insertar los datos
-        $result = $db1 -> prepare($query);
+        $result = $db -> prepare($query);
         $result -> execute();
         $resultado_artistas = $result -> fetchAll();
         $resultado_artistas = $resultado_artistas[0]["importar_usuarios"];
@@ -34,7 +34,7 @@
 
     //PRODUCTORAS
     $query = "SELECT nombre, id_productora, pais FROM productora;";
-    $result = $db1 -> prepare($query);
+    $result = $db -> prepare($query);
     $result -> execute();
     $productoras = $result -> fetchAll();
     $n_productoras_malo = 0;
@@ -50,7 +50,7 @@
 
 
         // Ejecutamos las querys para efectivamente insertar los datos
-        $result = $db1 -> prepare($query);
+        $result = $db -> prepare($query);
         $result -> execute();
         $resultado_productoras = $result -> fetchAll();
         $resultado_productoras = $resultado_productoras[0]["importar_usuarios"];
@@ -71,7 +71,7 @@
 
     // Mostramos los cambios en una nueva tabla de usuarios
     $query = "SELECT * FROM usuarios;";
-    $result = $db1 -> prepare($query);
+    $result = $db -> prepare($query);
     $result -> execute();
     $usuarios = $result -> fetchAll();
 
