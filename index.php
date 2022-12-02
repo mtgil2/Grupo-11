@@ -37,6 +37,7 @@ require_once "./__init__.php";
       </form>
   </div>
   </section>
+  <img src="./styles/coldplay-1.jpg" alt="HTML5 Icon" style="width:300px;height:300px; padding: 50px" align = "right">
   <br>
 <br>
   <section class="section">
@@ -66,7 +67,7 @@ require_once "./__init__.php";
     </div>
   </section>
   </div>
-  <img src="./styles/coldplay-1.jpg" alt="HTML5 Icon" style="width:300px;height:300px; padding: 50px" align = "right">
+  
   <?php } ?>
 </section>
 
