@@ -27,7 +27,7 @@
         $result = $db -> prepare($query);
         $result -> execute();
         $resultado_artistas = $result -> fetchAll();
-        echo $resultado_artistas
+        echo $resultado_artistas;
 
         
         $resultado_artistas = $resultado_artistas[0]["importar_usuarios"];
