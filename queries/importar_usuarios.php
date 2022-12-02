@@ -5,7 +5,7 @@
     include('../templates/header.html');
 
     //ARTISTAS
-    $query = "SELECT nombre_artistico, id_artista FROM artistas;";
+    $query = "SELECT nombre_escenico, id_artista FROM artista;";
     $result = $db1 -> prepare($query);
     $result -> execute();
     $artistas = $result -> fetchAll();

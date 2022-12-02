@@ -25,10 +25,10 @@ require_once "./__init__.php";
   <?php if (isset($_SESSION['username'])) { ?>
     <!-- Se muestra un mensaje si hay una sesión de usuario -->
     <?php if ($_SESSION['tipo']=='productora') { ?>
-      <?php header("Location: " . './inicio_productora.php');?>
+      <?php header("Location: " . './inicio_productoras.php');?>
 
     <?php } elseif ($_SESSION['tipo']=='artista') { ?>
-      <?php header("Location: " . './inicio_artista.php');?>
+      <?php header("Location: " . './inicio_artistas.php');?>
 
   <?php }} else { ?>
     <!-- En el caso que no, se muestran los botones para iniciar sesión -->
