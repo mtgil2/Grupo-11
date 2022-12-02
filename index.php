@@ -28,8 +28,7 @@ require_once "./__init__.php";
 
   <?php }} else { ?>
     <!-- En el caso que no, se muestran los botones para iniciar sesión -->
-<br>
-<br>
+
 
   <section class="section" >
     <div>
@@ -38,7 +37,8 @@ require_once "./__init__.php";
       </form>
   </div>
   </section>
-  
+  <br>
+<br>
   <section class="section">
 
     <div class="columns is-mobile is-centered is-vcentered cover-all">
