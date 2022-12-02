@@ -11,15 +11,15 @@ require_once "./__init__.php";
   $nombre_artista = $_SESSION['username'];
   $username = str_replace("_", " ", $nombre_artista);
   echo $username;
-  $query = "SELECT id_artista, nombre_artista
-  FROM artista
-  WHERE nombre_artista = $username";
+  $query = "SELECT id_artista
+  FROM artista, eventos
+  WHERE id_artista = eventos.id_artista";
   $result = $db -> prepare($query);
   $result -> execute();
   $data = $result -> fetchAll();
 
   foreach ($data as $v) {
-    $nombre_artista = $v[1];
+    
     $id_artista = $v[0];
     echo "terepo";
 }
