@@ -21,17 +21,16 @@ input[type=text] {
 }
 
 .button {
-    background-color: rgb(207, 201, 172);
+    background-color: #cfc9ac;
     height: 40px;
     border: none;
     border-radius: 5px;
     font-size: 25px;
-    padding: 5px;
-    size: 60px;
+  
 }
 
 .button:hover{
-  background-color: #298838;
+  background-color: #f0f78e;
 
 }
 
