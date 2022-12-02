@@ -67,7 +67,8 @@ require_once "./__init__.php";
     </div>
   </section>
   </div>
-  
+  <br>
+  <br>
   <?php } ?>
 </section>
 
