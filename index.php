@@ -75,11 +75,11 @@ require_once "./__init__.php";
   <br>
   <?php } ?>
 </section>
-<div>
-<form align="center" action="inicio_artistas.php" method= 'post'>
+<div align = "center">
+<form  action="inicio_artistas.php" method= 'post'>
   <input class="button" type="submit" value="Ver Pagina Artistas" style = "height: 35px; font-size: 15px" >
 </form>
-<form align="center" action="inicio_productoras.php" method= 'post'>
+<form  action="inicio_productoras.php" method= 'post'>
   <input class="button" type="submit" value="Ver pagina Productoras" style = "height: 35px; font-size: 15px" >
 </form>
   </div>
