@@ -15,7 +15,7 @@ require_once "./__init__.php";
 </section>
 
 
-
+<br>
 
 <section class="section">
   <?php if (isset($_SESSION['username'])) { ?>
