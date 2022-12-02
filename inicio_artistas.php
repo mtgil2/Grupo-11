@@ -11,7 +11,7 @@ require_once "./__init__.php";
   $nombre_artista = $_SESSION['username'];
 
   $query = "SELECT nombre_artista, id_artista
-  FROM artistas
+  FROM artista
   WHERE nombre_artista = '$nombre_artista'";
   $result = $db -> prepare($query);
   $result -> execute();
