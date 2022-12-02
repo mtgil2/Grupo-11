@@ -66,7 +66,7 @@ require_once "./__init__.php";
     </div>
   </section>
   </div>
-  <img src="/styles/coldplay-1.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
+  <img src="./styles/coldplay-1.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
   <?php } ?>
 </section>
 
