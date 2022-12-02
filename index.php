@@ -9,7 +9,7 @@ require_once "./__init__.php";
 <?php include('./templates/header.html'); ?>
 
 <section class="hero is-success is-halfheight pokebaner">
-  <div class="hero-body">
+  <div class="hero-body" style = "padding-left: 30px">
     <h1 class="title" style = "color: black">Artistas y Productores</h1>
   </div>
 </section>
@@ -29,7 +29,7 @@ require_once "./__init__.php";
   <?php }} else { ?>
     <!-- En el caso que no, se muestran los botones para iniciar sesión -->
     <img src="./styles/coldplay-1.jpg" alt="HTML5 Icon" style="width:700px;height:480px; margin-top: -90px; padding-right: 100px; padding-bottom: 40px" align = "right">
-<div style = "padding-left: 30px">
+<div style = "padding-left: 70px">
   <section class="section" >
     <div>
       <form class="buttons" action="consultas/importar_datos.php">
