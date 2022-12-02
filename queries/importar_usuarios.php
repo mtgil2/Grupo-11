@@ -19,7 +19,7 @@
         $psw = rand(10000000, 99999999);
         $tipo = "artista";
         $query = "SELECT importar_usuarios('$username'::varchar, '$psw'::varchar, '$tipo'::varchar , $artista[1]);";
-        echo $query;
+        #echo $query;
 
 
 
@@ -27,11 +27,13 @@
         $result = $db -> prepare($query);
         $result -> execute();
         $resultado_artistas = $result -> fetchAll();
+        echo $resultado_artistas;
         $resultado_artistas = $resultado_artistas[0]["importar_usuarios"];
         if ($resultado_artistas == 0){
             $n_artistas_malo = $n_artistas_malo + 1;
         }
     }
+        
 
     //PRODUCTORAS
     $query = "SELECT nombre, id_productora, pais FROM productora;";
