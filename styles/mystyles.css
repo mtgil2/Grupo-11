@@ -14,7 +14,7 @@ input[type=text] {
     width: 10em;
     height: 2em;
     font-size: 50px;
-    background-color: #087990;
+    background-color: #589fea;
 }
 .input[type = submit]:hover{
   background-color: #83c7d4;

@@ -10,7 +10,7 @@ require_once "./__init__.php";
 
 <section class="hero is-success is-halfheight pokebaner">
   <div class="hero-body">
-    <h1 class="title" style = "color: #83c7d4">Artistas y Productores</h1>
+    <h1 class="title" style = "color: #589fea">Artistas y Productores</h1>
   </div>
 </section>
 
