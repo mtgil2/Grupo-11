@@ -10,6 +10,7 @@ require_once "./__init__.php";
 
   $nombre_artista = $_SESSION['username'];
   $username = str_replace("_", " ", $nombre_artista);
+  echo $username
   $query = "SELECT nombre_artista, id_artista
   FROM artista
   WHERE nombre_artista = '$username'";
