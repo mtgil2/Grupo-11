@@ -16,6 +16,13 @@ require_once "./__init__.php";
   $result -> execute();
   $data = $result -> fetchAll();
 
+  echo $data;
+  foreach ($data as $v) {
+    
+    $id_artista = $v[0];
+    echo "terepo";
+}
+
   ?>
 
 <h2 class="title is-1"> Bienvenido artista <?php echo $nombre_artista; $id_artista?>
@@ -23,7 +30,17 @@ require_once "./__init__.php";
 <?php
   
 
- 
+
+  $nombre_artista = $_SESSION['username'];
+
+  $query = "SELECT nombre_lugar, fecha
+  FROM eventos
+  WHERE id_artista = $id_artista";
+  $result = $db -> prepare($query);
+  $result -> execute();
+  $data2 = $result -> fetchAll();
+  echo "hola";
+
 
   ?>
 <table align="center" class='table table-light table-hover w-auto table-bordered border-success table-striped'>
