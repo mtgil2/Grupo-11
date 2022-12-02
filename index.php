@@ -29,7 +29,7 @@ require_once "./__init__.php";
   <?php }} else { ?>
     <!-- En el caso que no, se muestran los botones para iniciar sesión -->
 
-
+<div style = "padding-left: 30px">
   <section class="section" >
     <div>
       <form class="buttons" action="consultas/importar_datos.php">
@@ -65,7 +65,7 @@ require_once "./__init__.php";
       </div>
     </div>
   </section>
-
+  </div>
 
   <?php } ?>
 </section>
