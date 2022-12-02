@@ -3,7 +3,7 @@ Es mucho más fácil implementar una plantilla de Bootstrap que cambiar estas co
 
 input {
     width: 10%;
-    height: 20px;
+    height: 40px;
 }
 
 input[type=text] {
