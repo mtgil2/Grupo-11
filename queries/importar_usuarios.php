@@ -40,7 +40,7 @@
     $n_productoras_malo = 0;
 
 
-    foreach ($productora as $productora){
+    foreach ($productoras as $productora){
 
         $username = str_replace(" ", "_", $productora[0]);
         $username = $username . "_" . $productora[2];
