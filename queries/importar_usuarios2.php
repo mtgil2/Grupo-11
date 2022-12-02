@@ -57,8 +57,9 @@
 
     // } else{
     //     echo "Se crearon exitosamente todos los usuarios.";
-    // }
+    }
     echo "Se crearon exitosamente todos los usuarios";
+
 
     // Mostramos los cambios en una nueva tabla de usuarios
     $query = "SELECT * FROM usuarios;";
