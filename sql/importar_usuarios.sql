@@ -1,7 +1,7 @@
 CREATE OR REPLACE FUNCTION
 
 -- declaramos la función y sus argumentos
-importar_usuarios (id int,  username varchar(30), contrasena varchar(30), tipo varchar(30))
+importar_usuarios (id int,  username varchar(90), contrasena varchar(20), tipo varchar(30))
 
 -- declaramos lo que retorna, en este caso un booleano
 RETURNS INTEGER as $$
