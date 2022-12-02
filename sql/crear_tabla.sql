@@ -12,7 +12,7 @@ RETURNS void AS $$
 -- definimos nuestra función
 BEGIN
 
-    DROP TABLE IF EXISTS usuarios;
+    --DROP TABLE IF EXISTS usuarios;
     CREATE TABLE IF NOT EXISTS usuarios (
     id         int,
     username   varchar(90),
