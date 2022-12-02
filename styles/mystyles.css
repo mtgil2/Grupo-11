@@ -2123,14 +2123,14 @@ tr:nth-child(even) {
   
   .table-success {
     --bs-table-bg: #d1e7dd;
-    --bs-table-striped-bg: #c7dbd2;
+    --bs-table-striped-bg: #c7d7db;
     --bs-table-striped-color: #000;
     --bs-table-active-bg: #bcd0c7;
     --bs-table-active-color: #000;
-    --bs-table-hover-bg: #c1d6cc;
+    --bs-table-hover-bg: #c1d4d6;
     --bs-table-hover-color: #000;
     color: #000;
-    border-color: #bcd0c7;
+    border-color: #bccbd0;
   }
   
   .table-info {
