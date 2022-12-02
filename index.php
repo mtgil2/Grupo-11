@@ -76,11 +76,11 @@ require_once "./__init__.php";
   <?php } ?>
 </section>
 <div>
-<form align="center" action="inicio_artiastas.php" method= 'post'>
+<form align="center" action="inicio_artistas.php" method= 'post'>
   <input class="button" type="submit" value="Ver Pagina Artistas" style = "height: 35px; font-size: 15px" >
 </form>
 <form align="center" action="inicio_productoras.php" method= 'post'>
-  <input class="button" type="submit" value="Volver" style = "height: 35px; font-size: 15px" >
+  <input class="button" type="submit" value="Ver pagina Productoras" style = "height: 35px; font-size: 15px" >
 </form>
   </div>
 <!-- https://bulma.io/documentation/layout/tiles/ -->
