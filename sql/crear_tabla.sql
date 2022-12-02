@@ -14,7 +14,7 @@ BEGIN
 
     DROP TABLE IF EXISTS usuarios;
     CREATE TABLE IF NOT EXISTS usuarios (
-    id         serial PRIMARY KEY,
+    id         int,
     username   varchar(90),
     contrasena varchar(20),
     tipo       varchar(20)
