@@ -1,26 +1,14 @@
 <?php
-  #try {
-    #Pide las variables para conectarse a la base de datos.
-    #require('data.php'); 
-    # Se crea la instancia de PDO
-    #$db = new PDO("pgsql:dbname=$databaseName;host=localhost;port=5432;user=$user;password=$password");
-  #} catch (Exception $e) {
-   # echo "No se pudo conectar a la base de datos: $e";
-  #}
-  #try {
-    #require('data.php');
-    #$db2 = new PDO("pgsql:dbname=$databaseName2;host=localhost;port=5432;user=$user2;password=$password2");
-    #} catch (Exception $e) {
-    #  echo "No se pudo conectar a la base de datos: $e";
-    #}
-
-
-#Trini Tere
-$db = new PDO(
-  "pgsql:dbname=$databaseName;host=localhost;port=5432;user=$user;password=$password"
-);
-
-#Felipe Viccente
-$db2 = new PDO(
-  "pgsql:dbname=$databaseName2;host=localhost;port=5432;user=$user2;password=$password2"
-);
+  try {
+    require('data.php'); 
+    $db = new PDO("pgsql:dbname=$databaseName;host=localhost;port=5432;user=$user;password=$password");
+  } catch (Exception $e) {
+    echo "No se pudo conectar a la base de datos F: $e";
+  }
+  try {
+    require('data.php');
+    $db2 = new PDO("pgsql:dbname=$databaseName2;host=localhost;port=5432;user=$user2;password=$password2");
+  } catch(Exception $e) {
+    echo "No se pudo conectar a la base da datos F: $e";
+  }
+?>
