@@ -52,7 +52,7 @@ $info_prov4 = $result4 -> fetchAll();
 
   <br/><br/>
 
-  <form align="center" action="./importar_datos.php" method= 'post'>
+  <form align="center" action="./importar_datos2.php" method= 'post'>
   <input class="button" type="submit" value="Volver" style = "height: 35px; font-size: 15px" >
   </form>
 
