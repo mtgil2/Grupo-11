@@ -95,7 +95,7 @@ require_once "./__init__.php";
     <h1 align="center" name= "tablaconsulta2"> Vuelos rechazados</h1>
   </div>
   <div class="table is-striped">
-  <table align="center">
+  <table align="center" >
     <tr>
         <th > ID vuelo</th>
         <th > Codigo Vuelo</th>

@@ -387,6 +387,7 @@ tr:nth-child(even) {
   th {
     text-align: inherit;
     text-align: -webkit-match-parent;
+    background-color: #087990;
   }
   
   thead,
