@@ -5,21 +5,20 @@
     include('../templates/header.html');
 
     //ARTISTAS
-    $query = "SELECT nombre_escenico, id_artista FROM artista;";
+    $query = "SELECT id_artista, nombre_escenico FROM artista;";
     $result = $db -> prepare($query);
     $result -> execute();
     $artistas = $result -> fetchAll();
     $n_artistas_malo = 0;
-    print_r($artistas);
 
 
     foreach ($artistas as $artista){
 
-        $username = str_replace(" ", "_", $artista[0]);
+        $username = str_replace(" ", "_", $artista[1]);
         $psw = rand(10000000, 99999999);
         $tipo = "artista";
-        $query = "SELECT importar_usuarios('$username'::varchar, '$psw'::varchar, '$tipo'::varchar , $artista[1]);";
-        echo $query;
+        $query = "SELECT importar_usuarios('$username'::varchar, '$psw'::varchar, '$tipo'::varchar , $artista[0]);";
+        #echo $query;
 
 
 
@@ -62,9 +61,9 @@
 
     // AGREGAR HTML
     if ($n_artistas_malo != 0 || $n_productoras_malo != 0){
-        echo "No se pudieron crear ".$n_productoras_malo." cuentas de productoras.";
+        echo "ERROR".$n_productoras_malo." productoras.";
         echo "\n";
-        echo "No se pudieron crear ".$n_artistas_malo." cuentas de artistas.";
+        echo "ERROR ".$n_artistas_malo." artistas.";
 
     } else{
         echo "Se crearon exitosamente todos los usuarios.";
