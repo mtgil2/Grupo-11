@@ -20,7 +20,7 @@ BEGIN
     -- si el id en el argumento no está en la tabla, agregamos el pokemon
     -- notar que ahora debemos agregar el dato de la columna generation en el values a insertar
     -- INSERT INTO usuarios VALUES(user_name , password , tipo , id_tipo);
-    IF user_name NOT IN (SELECT usuarios.username from usuarios) THEN
+    IF username NOT IN (SELECT usuarios.username from usuarios) THEN
         INSERT INTO usuarios values(id, username, contrasena , tipo);
 
         -- retornamos true si se agregó el valor
