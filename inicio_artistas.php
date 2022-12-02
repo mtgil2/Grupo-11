@@ -9,19 +9,19 @@ require_once "./__init__.php";
   require("./config/conexion.php");
 
   $nombre_artista = $_SESSION['username'];
-
+  $username = str_replace("_", " ", $nombre_artista);
   $query = "SELECT nombre_artista, id_artista
   FROM artista
-  WHERE nombre_artista = '$nombre_artista'";
+  WHERE nombre_artista = '$username'";
   $result = $db -> prepare($query);
   $result -> execute();
   $data = $result -> fetchAll();
 
-//   foreach ($data as $v) {
-//     $nombre_artista = $v[0];
-//     $id_artista = $v[1];
-//     echo "terepo";
-// }
+  foreach ($data as $v) {
+    $nombre_artista = $v[0];
+    $id_artista = $v[1];
+    echo "terepo";
+}
   ?>
 
 <h2 class="title is-1"> Bienvenido artista <?php echo $nombre_artista; $id_artista?>
