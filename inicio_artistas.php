@@ -8,21 +8,14 @@ require_once "./__init__.php";
 <?php
   require("./config/conexion.php");
 
-  $nombre_artista = $_SESSION['username'];
-  $username = str_replace("_", " ", $nombre_artista);
-  echo $username;
-  $query = "SELECT id_artista
-  FROM artista, eventos
-  WHERE id_artista = eventos.id_artista";
+  $id_artista = $_SESSION['id'];
+  $query = "SELECT nombre_lugar, fecha_evento
+  FROM eventos
+  WHERE '$id_artista' = eventos.id_artista";
   $result = $db -> prepare($query);
   $result -> execute();
   $data = $result -> fetchAll();
 
-  foreach ($data as $v) {
-    
-    $id_artista = $v[0];
-    echo "terepo";
-}
   ?>
 
 <h2 class="title is-1"> Bienvenido artista <?php echo $nombre_artista; $id_artista?>
@@ -30,15 +23,7 @@ require_once "./__init__.php";
 <?php
   
 
-  $nombre_artista = $_SESSION['username'];
-
-  $query = "SELECT nombre_lugar, fecha
-  FROM eventos
-  WHERE id_artista = $id_artista";
-  $result = $db -> prepare($query);
-  $result -> execute();
-  $data2 = $result -> fetchAll();
-
+ 
 
   ?>
 <table align="center" class='table table-light table-hover w-auto table-bordered border-success table-striped'>
@@ -52,10 +37,10 @@ require_once "./__init__.php";
             </thead>
             <tbody>
                 <?php
-                foreach ($data2 as $data) {
+                foreach ($data as $data1) {
                     echo "<tr>";
                     for ($i = 0; $i < 2; $i++) {
-                        echo "<td>$data[$i]</td> ";
+                        echo "<td>$data1[$i]</td> ";
                         echo "hola";
                     }
                     echo "</tr>";
