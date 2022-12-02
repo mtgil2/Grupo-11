@@ -11,7 +11,7 @@ require_once "./__init__.php";
   $nombre_artista = $_SESSION['username'];
   $username = str_replace("_", " ", $nombre_artista);
   echo $username;
-  $query = "SELECT nombre_artista, id_artista
+  $query = "SELECT id_artista, nombre_artista
   FROM artista
   WHERE nombre_artista = $username";
   $result = $db -> prepare($query);
@@ -19,8 +19,8 @@ require_once "./__init__.php";
   $data = $result -> fetchAll();
 
   foreach ($data as $v) {
-    $nombre_artista = $v[0];
-    $id_artista = $v[1];
+    $nombre_artista = $v[1];
+    $id_artista = $v[0];
     echo "terepo";
 }
   ?>
