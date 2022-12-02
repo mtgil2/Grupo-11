@@ -10,7 +10,7 @@
     $result -> execute();
     $artistas = $result -> fetchAll();
     $n_artistas_malo = 0;
-
+    print_r($artistas);
 
 
     foreach ($artistas as $artista){
