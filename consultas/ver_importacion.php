@@ -30,10 +30,10 @@ $info_prov4 = $result4 -> fetchAll();
 <?php include './../templates/header.html' ?>
 
 <div class="resultado">
-    <h1 align="center" class ="titulo"> Informacion de usuarios</h1>
+    <h1 align="center" class ="titulo" style = "color: black"> Informacion de usuarios</h1>
   </div>
   <div class="table is-striped">
-    <table align="center">
+    <table align="center" style= "background-color: #83c7d4">
       <tr>
         <th > ID</th>
         <th > Username</th>
