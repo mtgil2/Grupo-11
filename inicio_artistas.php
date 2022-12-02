@@ -24,3 +24,11 @@ require_once "./__init__.php";
 
 <h2 class="title is-1"> Bienvenido artista <?php echo $nombre_artista ?>
 </h2>
+
+
+<form class="buttons" action="logout.php" method= 'post'>
+  <input class="button is-primary" type="submit" value="Cerrar Sesión" >
+</form>
+
+
+<?php include('./templates/footer.html'); ?>
