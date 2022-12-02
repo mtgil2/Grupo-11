@@ -21,7 +21,7 @@ require_once './../__init__.php';
 
 <div class="columns is-mobile is-centered is-vcentered cover-all">
   <form class="buttons" action="ver_importacion.php">
-    <button class="button" type="submit" name="Importar" style= "background-color: #83c7d4">Ver tabla con usuarios importados</button>
+    <button class="button" type="submit" name="Importar" style= "background-color: #83c7d4" align = "center">Ver tabla con usuarios importados</button>
   </form>
 </div> 
 <br>
