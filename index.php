@@ -79,9 +79,7 @@ require_once "./__init__.php";
 <form  action="inicio_artistas.php" method= 'post'>
   <input class="button" type="submit" value="Ver Pagina Artistas" style = "height: 35px; font-size: 15px" >
 </form>
-<form  action="inicio_productoras.php" method= 'post'>
-  <input class="button" type="submit" value="Ver pagina Productoras" style = "height: 35px; font-size: 15px" >
-</form>
+
   </div>
 <!-- https://bulma.io/documentation/layout/tiles/ -->
 <!-- Aquí agregamos una parte que solo está disponible a los usuarios con sesión iniciada -->
