@@ -27,7 +27,7 @@ require_once './../__init__.php';
 <br>
 <br>
 <form align="center" action="../index.php" method= 'post'>
-  <input class="button is-primary" type="submit" value="Volver" style = "height: 35px" >
+  <input class="button" type="submit" value="Volver" style = "height: 35px; font-size: 15px" >
 </form>
 
 <br>
