@@ -28,7 +28,7 @@ require_once "./__init__.php";
 
   <?php }} else { ?>
     <!-- En el caso que no, se muestran los botones para iniciar sesión -->
-
+    <img src="./styles/coldplay-1.jpg" alt="HTML5 Icon" style="width:700px;height:700px; padding: 50px" align = "right">
 <div style = "padding-left: 30px">
   <section class="section" >
     <div>
@@ -37,7 +37,7 @@ require_once "./__init__.php";
       </form>
   </div>
   </section>
-  <img src="./styles/coldplay-1.jpg" alt="HTML5 Icon" style="width:300px;height:300px; padding: 50px" align = "right">
+ 
   <br>
 <br>
   <section class="section">
