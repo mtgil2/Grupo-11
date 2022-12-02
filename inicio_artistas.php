@@ -20,7 +20,7 @@ require_once "./__init__.php";
   foreach ($data as $v) {
     $nombre_artista = $v[0];
     $id_artista = $v[1];
-    echo "$v"
+    echo "$v";
 }
   ?>
 
