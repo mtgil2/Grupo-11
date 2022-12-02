@@ -10,11 +10,10 @@ require_once './../__init__.php';
   </br>
   <br>
   </br>
-  <h1 align="center" class ="titulo"> Se han importado los datos correctamente! </h1>
+  <h1 align="center" class ="titulo" style = "color: Black"> Se han importado los datos correctamente! </h1>
   <br>
   </br>
-  <br>
-  </br>
+
 </div>    
     
 <br>
@@ -22,10 +21,11 @@ require_once './../__init__.php';
 
 <div class="columns is-mobile is-centered is-vcentered cover-all">
   <form class="buttons" action="ver_importacion.php">
-    <button class="button is-primary" type="submit" name="Importar">Ver tabla con usuarios importados</button>
+    <button class="button is-primary" type="submit" name="Importar" style= "background-color: #83c7d4">Ver tabla con usuarios importados</button>
   </form>
 </div> 
-
+<br>
+<br>
 <form align="center" action="../logout.php" method= 'post'>
   <input class="button is-primary" type="submit" value="Volver" >
 </form>
