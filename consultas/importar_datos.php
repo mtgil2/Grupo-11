@@ -26,7 +26,7 @@ require_once './../__init__.php';
 </div> 
 <br>
 <br>
-<form align="center" action="../index.php" method= 'post'>
+<form align="center" action="./consultas/index.php" method= 'post'>
   <input class="button is-primary" type="submit" value="Volver" >
 </form>
 
