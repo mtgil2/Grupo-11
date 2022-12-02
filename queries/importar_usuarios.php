@@ -10,6 +10,7 @@
     $result -> execute();
     $artistas = $result -> fetchAll();
     $n_artistas_malo = 0;
+    print_r ($artistas)
 
 
     foreach ($artistas as $artista){
@@ -18,7 +19,7 @@
         $psw = rand(10000000, 99999999);
         $tipo = "artista";
         $query = "SELECT importar_usuarios('$username'::varchar, '$psw'::varchar, '$tipo'::varchar , $artista[1]);";
-     
+        
 
 
 
