@@ -38,6 +38,7 @@ require_once "./__init__.php";
   $result = $db -> prepare($query);
   $result -> execute();
   $data2 = $result -> fetchAll();
+  echo "hola";
 
 
   ?>
