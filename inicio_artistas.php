@@ -32,7 +32,7 @@ require_once "./__init__.php";
 
   $query = "SELECT nombre_lugar, fecha
   FROM eventos
-  WHERE id_artista = '$id_artista'";
+  WHERE id_artista = $id_artista";
   $result = $db -> prepare($query);
   $result -> execute();
   $data2 = $result -> fetchAll();
@@ -54,6 +54,7 @@ require_once "./__init__.php";
                     echo "<tr>";
                     for ($i = 0; $i < 2; $i++) {
                         echo "<td>$data2[$i]</td> ";
+                        echo "hola";
                     }
                     echo "</tr>";
                 }
