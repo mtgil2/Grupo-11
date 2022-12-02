@@ -121,6 +121,8 @@ require_once "./__init__.php";
 <form class="buttons" action="logout.php" method= 'post'>
   <input class="button is-primary" type="submit" value="Cerrar Sesión" >
 </form>
-
+<form align="center" action="../index.php" method= 'post'>
+  <input class="button" type="submit" value="Volver" style = "height: 35px; font-size: 15px" >
+</form>
 
 <?php include('./templates/footer.html'); ?>
