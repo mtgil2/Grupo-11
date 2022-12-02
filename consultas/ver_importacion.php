@@ -35,10 +35,10 @@ $info_prov4 = $result4 -> fetchAll();
   <div class="table is-striped">
     <table align="center" style = "color : #83c7d4" >
       <tr style= "background-color: #83c7d4">
-        <th style= "background-color: #83c7d4"> ID</th>
-        <th > Username</th>
-        <th > Contraseña</th>
-        <th > Tipo</th>
+        <th style= "background-color: #83c7d4; color: black"> ID</th>
+        <th style= "background-color: #83c7d4; color: black"> Username</th>
+        <th style= "background-color: #83c7d4; color: black"> Contraseña</th>
+        <th style= "background-color: #83c7d4; color: black"> Tipo</th>
       </tr>
     <?php 
   
