@@ -28,7 +28,7 @@ require_once "./__init__.php";
 
   <?php }} else { ?>
     <!-- En el caso que no, se muestran los botones para iniciar sesión -->
-    <img src="./styles/coldplay-1.jpg" alt="HTML5 Icon" style="width:700px;height:700px; padding: 50px" align = "right">
+    <img src="./styles/coldplay-1.jpg" alt="HTML5 Icon" style="width:500px;height:500px; padding: 50px; margin-top: 0px" align = "right">
 <div style = "padding-left: 30px">
   <section class="section" >
     <div>
