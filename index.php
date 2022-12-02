@@ -10,7 +10,7 @@ require_once "./__init__.php";
 
 <section class="hero is-success is-halfheight pokebaner">
   <div class="hero-body">
-    <h1 class="title">Artistas y Productores</h1>
+    <h1 class="title" style = "color: #83c7d4">Artistas y Productores</h1>
   </div>
 </section>
 
@@ -59,7 +59,7 @@ require_once "./__init__.php";
 <br>
 
 <br>
-          <button class="button" type="submit" name="login">Login</button>
+          <button class="button" style= "background-color: #83c7d4" type="submit" name="login">Login</button>
 
         </form>
       </div>
