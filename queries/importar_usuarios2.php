@@ -51,7 +51,7 @@
         $username = $username . "_" . $productora[2];
         $psw = rand(10000000, 99999999);
         $tipo = "productora";
-        $query = "SELECT importar_usuarios('$username'::varchar, '$psw'::varchar, '$tipo'::varchar , $productora[1]);";
+        $query = "SELECT importar_usuarios($productora[1], '$username'::varchar, '$psw'::varchar, '$tipo'::varchar);";
 
 
         // Ejecutamos las querys para efectivamente insertar los datos
