@@ -50,10 +50,10 @@ require_once "./__init__.php";
             </thead>
             <tbody>
                 <?php
-                foreach ($usuarios as $usuario) {
+                foreach ($data2 as $data) {
                     echo "<tr>";
                     for ($i = 0; $i < 2; $i++) {
-                        echo "<td>$data2[$i]</td> ";
+                        echo "<td>$data[$i]</td> ";
                         echo "hola";
                     }
                     echo "</tr>";
