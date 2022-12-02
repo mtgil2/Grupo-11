@@ -19,7 +19,7 @@ BEGIN
 
     PERFORM setseed(1);
 
-    i := 1;
+    i := 0;
     -- FOR tupla IN (SELECT * FROM dblink('dbname=grupo61e3 user=grupo61 password=divinas123 port=5432','SELECT * FROM companias') AS f(codigo char, nombre varchar))
     FOR tupla IN (SELECT * FROM productora)
     LOOP
