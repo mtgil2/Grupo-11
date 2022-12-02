@@ -26,7 +26,10 @@
         $result = $db -> prepare($query);
         $result -> execute();
         $resultado_artistas = $result -> fetchAll();
-        $resultado_artistas = $resultado_artistas[0]["importar_usuarios"];
+        if(isset($resultado_artistas[0])){
+            $resultado_artistas = $resultado_artistas[0]["importar_usuarios"];
+        }
+        #$resultado_artistas = $resultado_artistas[0]["importar_usuarios"];
         if ($resultado_artistas == 0){
             $n_artistas_malo = $n_artistas_malo + 1;
         }
