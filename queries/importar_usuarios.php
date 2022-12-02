@@ -5,7 +5,7 @@
     include('../templates/header.html');
 
     //ARTISTAS
-    $query = "SELECT id_artista, nombre_escenico FROM artista;";
+    $query = "SELECT nombre_escenico, id_artista FROM artista;";
     $result = $db -> prepare($query);
     $result -> execute();
     $artistas = $result -> fetchAll();
@@ -14,11 +14,11 @@
 
     foreach ($artistas as $artista){
 
-        $username = str_replace(" ", "_", $artista[1]);
+        $username = str_replace(" ", "_", $artista[0]);
         $psw = rand(10000000, 99999999);
         $tipo = "artista";
-        $query = "SELECT importar_usuarios('$username'::varchar, '$psw'::varchar, '$tipo'::varchar , $artista[0]);";
-        echo $query;
+        $query = "SELECT importar_usuarios('$username'::varchar, '$psw'::varchar, '$tipo'::varchar , $artista[1]);";
+     
 
 
 
