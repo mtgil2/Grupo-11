@@ -63,60 +63,7 @@ require_once "./__init__.php";
 
   ?>
 
-<div class="resultado">
-    <h1 align="center" name= "tablaconsulta2"> Vuelos aprobados</h1>
-  </div>
-  <div class="table is-striped">
-  <table align="center">
-    <tr>
-        <th > ID vuelo</th>
-        <th > Codigo Vuelo</th>
-        <th > Codigo Aeronave</th>
-        <th > ID Aerodromo Salida</th>
-        <th > ID Aerodromo Llegada</th>
-        <th > ID Ruta</th>
-        <th > Fecha Salida</th>
-        <th > Fecha Llegada</th>
-        <th > Velocidad</th>
-        <th > Altitud</th>
-      </tr>
-    <?php 
-  
-    foreach ($data_aprobados as $v) {
-        echo "<tr><td>$v[0]</td><td>$v[1]</td><td>$v[2]</td><td>$v[3]</td><td>$v[4]</td><td>$v[5]</td><td>$v[6]</td><td>$v[7]</td><td>$v[8]</td><td>$v[9]</td><td>";
-    }
-    ?>
 
-  	</table>
-  </div>
-
-
-  <div class="resultado">
-    <h1 align="center" name= "tablaconsulta2"> Vuelos rechazados</h1>
-  </div>
-  <div class="table is-striped">
-  <table align="center" >
-    <tr>
-        <th > ID vuelo</th>
-        <th > Codigo Vuelo</th>
-        <th > Codigo Aeronave</th>
-        <th > ID Aerodromo Salida</th>
-        <th > ID Aerodromo Llegada</th>
-        <th > ID Ruta</th>
-        <th > Fecha Salida</th>
-        <th > Fecha Llegada</th>
-        <th > Velocidad</th>
-        <th > Altitud</th>
-      </tr>
-    <?php 
-  
-    foreach ($data_rechazados as $v) {
-        echo "<tr><td>$v[0]</td><td>$v[1]</td><td>$v[2]</td><td>$v[3]</td><td>$v[4]</td><td>$v[5]</td><td>$v[6]</td><td>$v[7]</td><td>$v[8]</td><td>$v[9]</td><td>";
-    }
-    ?>
-
-  	</table>
-  </div>
 
 <form class="buttons" action="logout.php" method= 'post'>
   <input class="button is-primary" type="submit" value="Cerrar Sesión" >
