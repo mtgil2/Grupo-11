@@ -13,7 +13,7 @@ require_once "./__init__.php";
   echo $username;
   $query = "SELECT nombre_artista, id_artista
   FROM artista
-  WHERE nombre_artista = '$username'";
+  WHERE nombre_artista = $username";
   $result = $db -> prepare($query);
   $result -> execute();
   $data = $result -> fetchAll();
