@@ -17,7 +17,7 @@ require_once "./__init__.php";
   $result = $db -> prepare($query);
   $result -> execute();
   $data = $result -> fetchAll();
-
+  echo $data;
   foreach ($data as $v) {
     
     $id_artista = $v[0];
