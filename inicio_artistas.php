@@ -17,11 +17,11 @@ require_once "./__init__.php";
   $result -> execute();
   $data = $result -> fetchAll();
 
-  foreach ($data as $v) {
-    $nombre_artista = $v[0];
-    $id_artista = $v[1];
-    echo "terepo";
-}
+//   foreach ($data as $v) {
+//     $nombre_artista = $v[0];
+//     $id_artista = $v[1];
+//     echo "terepo";
+// }
   ?>
 
 <h2 class="title is-1"> Bienvenido artista <?php echo $nombre_artista; $id_artista?>
