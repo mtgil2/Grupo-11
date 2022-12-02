@@ -11,27 +11,27 @@
     <form action="propuesta_evento.php" method="post">
       <div class="mb-3">
         <label class="form-label">Nombre Lugar:</label>
-        <input name="codigo_vuelo" type="text">       
+        <input name="nombre_lugar" type="text">       
       </div> 
       <div class="mb-3">
-        <label class="form-label">:</label>
-        <input name="aerodromo_salida" type="text">       
+        <label class="form-label">Id Ciudad</label>
+        <input name="id_cuidad" type="text">       
       </div> 
       <div class="mb-3">
-        <label class="form-label">Aeródromo llegada:</label>
-        <input name="aerodromo_llegada" type="text">       
+        <label class="form-label">Fecha</label>
+        <input name="fecha" type="date">       
       </div> 
       <div class="mb-3">
-        <label class="form-label">Fecha salida:</label>
-        <input name="fecha_salida" type="date">       
+        <label class="form-label">Id Productora</label>
+        <input name="id_productora" type="text">       
       </div> 
       <div class="mb-3">
-        <label class="form-label">Fecha llegada:</label>
-        <input name="fecha_llegada" type="date">      
+        <label class="form-label">Id tour:</label>
+        <input name="id_tour" type="text">      
       </div> 
       <div class="mb-3">
-        <label class="form-label">Código aeronave:</label>
-        <input name="codigo_aeronave" type="text">      
+        <label class="form-label">Id turista</label>
+        <input name="id_turista" type="text">      
       </div>
       <input type="submit" value="Enviar">
     </form>
