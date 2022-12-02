@@ -16,6 +16,8 @@
     $result -> execute();
     $artistas = $result -> fetchAll();
     $n_artistas_malo = 0;
+
+    echo count($artistas);
     
 
 
@@ -39,6 +41,8 @@
     $result -> execute();
     $productoras = $result -> fetchAll();
     $n_productoras_malo = 0;
+
+    echo count($productoras);
 
 
     foreach ($productoras as $productora){
@@ -73,7 +77,6 @@
     $result -> execute();
     $usuarios = $result -> fetchAll();
 
-    echo count($usuarios);
 ?>
 <br></br>
     <form action='../index.php' align="center" method='get'>
