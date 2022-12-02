@@ -87,7 +87,7 @@
     <div class="container"> 
 
         <table align="center" class='table table-light table-hover w-auto table-bordered border-success table-striped'>
-            <thead class="table-success">
+            <thead class="table-success" style = "background-color: blue">
                 <tr>
                 <th>Id</th>
                 <th>Nombre usuario</th>
