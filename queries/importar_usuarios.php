@@ -1,7 +1,7 @@
 <?php
 
     // Nos conectamos a las bdds
-    require("../config/data.php");
+    require("../config/conexion.php");
     include('../templates/header.html');
 
     //ARTISTAS
