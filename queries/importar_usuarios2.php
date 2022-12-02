@@ -73,6 +73,7 @@
     $result -> execute();
     $usuarios = $result -> fetchAll();
 
+    echo strlen($usuarios);
 ?>
 <br></br>
     <form action='../index.php' align="center" method='get'>
