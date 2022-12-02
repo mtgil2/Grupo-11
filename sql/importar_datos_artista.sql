@@ -22,7 +22,7 @@ BEGIN
     PERFORM setseed(1);
     j := 0;
 
-    FOR tupla1 in (SELECT * FROM usuarios)
+    FOR tupla1 in (SELECT * FROM Usuarios)
 
     LOOP
         j := j + 1;
@@ -30,12 +30,12 @@ BEGIN
 
     i := j;
     -- FOR tupla IN (SELECT * FROM dblink('dbname=grupo61e3 user=grupo61 password=divinas123 port=5432','SELECT * FROM companias') AS f(codigo char, nombre varchar))
-    FOR tupla2 IN (SELECT * FROM artista)
+    FOR tupla2 IN (SELECT * FROM Artista)
     LOOP
-        nombre_minuscula := LOWER(tupla.nombre_escenico);
+        nombre_minuscula := LOWER(tupla2.nombre_escenico);
         nombre_final := REPLACE(nombre_minuscula, ' ', '_');
         contrasena := floor(random()*(200-100+1)+100);
-        INSERT INTO usuarios values(i, nombre_final, contrasena, 'artista');
+        INSERT INTO Usuarios values(i, nombre_final, contrasena, 'artista');
     
         i := i + 1;
     END LOOP;
