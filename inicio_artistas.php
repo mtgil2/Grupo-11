@@ -37,7 +37,7 @@ require_once "./__init__.php";
   $result -> execute();
   $data2 = $result -> fetchAll();
 
-}
+
   ?>
 <table align="center" class='table table-light table-hover w-auto table-bordered border-success table-striped'>
             <thead class="table-success" style = "background-color: blue">
