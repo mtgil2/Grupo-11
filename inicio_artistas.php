@@ -50,7 +50,7 @@ require_once "./__init__.php";
                     echo "<tr>";
                     for ($i = 0; $i < 2; $i++) {
                         echo "<td>$data1[$i]</td> ";
-                        echo "hola";
+                        
                     }
                     echo "</tr>";
                 }
