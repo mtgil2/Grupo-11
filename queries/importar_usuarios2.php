@@ -36,7 +36,7 @@
         
 
     //PRODUCTORAS
-    $query = "SELECT nombre_productora, id_productora, telefono_productora FROM productora;";
+    $query = "SELECT nombre_productora, id_productora FROM productora;";
     $result = $db -> prepare($query);
     $result -> execute();
     $productoras = $result -> fetchAll();
