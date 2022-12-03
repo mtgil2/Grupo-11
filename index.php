@@ -75,10 +75,7 @@ require_once "./__init__.php";
   <br>
   <?php } ?>
 </section>
-<div align = "center">
-<form  action="inicio_artistas.php" method= 'post'>
-  <input class="button" type="submit" value="Ver Pagina Artistas" style = "height: 35px; font-size: 15px" >
-</form>
+
 
   </div>
 <!-- https://bulma.io/documentation/layout/tiles/ -->

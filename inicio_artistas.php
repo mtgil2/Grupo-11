@@ -7,27 +7,19 @@ require_once "./__init__.php";
 
 <?php
   require("./config/conexion.php");
-
-  $id_artista = $_SESSION['id'];
-  $query = "SELECT nombre_lugar, fecha_evento
+  $id_artista = $_SESSION['user_id'];
+  $query = "SELECT nombre_lugar, fecha
   FROM eventos
-  WHERE '$id_artista' = eventos.id_artista";
+  WHERE '$id_artista' = eventos.id_artista;";
+
   $result = $db -> prepare($query);
   $result -> execute();
   $data = $result -> fetchAll();
 
-  echo $data;
-  foreach ($data as $v) {
-    
-    $id_artista = $v[0];
-    echo "terepo";
-}
 
   ?>
+<?php echo '<h2 class="title is-1"> Bienvenido artista $nombre_escenico </h2>';
 
-<h2 class="title is-1"> Bienvenido artista <?php echo $nombre_escenico; $id_artista?>
-</h2>
-<?php
   
 
 
@@ -39,7 +31,7 @@ require_once "./__init__.php";
   $result = $db -> prepare($query);
   $result -> execute();
   $data2 = $result -> fetchAll();
-  echo "hola";
+  
 
 
   ?>
@@ -58,7 +50,7 @@ require_once "./__init__.php";
                     echo "<tr>";
                     for ($i = 0; $i < 2; $i++) {
                         echo "<td>$data1[$i]</td> ";
-                        echo "hola";
+                        
                     }
                     echo "</tr>";
                 }
