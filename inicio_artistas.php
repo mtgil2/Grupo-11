@@ -7,8 +7,7 @@ require_once "./__init__.php";
 
 <?php
   require("./config/conexion.php");
-  session_start();
-  $id_artista = $_SESSION['id'];
+  $id_artista = $_SESSION['user_id'];
   $query = "SELECT nombre_lugar, fecha_evento
   FROM eventos
   WHERE '$id_artista' = eventos.id_artista";
@@ -31,7 +30,7 @@ require_once "./__init__.php";
   $result = $db -> prepare($query);
   $result -> execute();
   $data2 = $result -> fetchAll();
-  echo "hola";
+  
 
 
   ?>
