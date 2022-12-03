@@ -8,7 +8,7 @@ require_once "./__init__.php";
 <?php
   require("./config/conexion.php");
   $id_artista = $_SESSION['user_id'];
-  $query = "SELECT nombre_lugar, fecha_evento
+  $query = "SELECT nombre_lugar, fecha
   FROM eventos
   WHERE '$id_artista' = eventos.id_artista;";
   echo $query;
