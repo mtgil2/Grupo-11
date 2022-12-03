@@ -7,7 +7,7 @@ require_once "./__init__.php";
 
 <?php
   require("./config/conexion.php");
-
+  session_start()
   $id_artista = $_SESSION['id'];
   $query = "SELECT nombre_lugar, fecha_evento
   FROM eventos
