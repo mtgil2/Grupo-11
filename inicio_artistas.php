@@ -11,14 +11,14 @@ require_once "./__init__.php";
   $query = "SELECT nombre_lugar, fecha
   FROM eventos
   WHERE '$id_artista' = eventos.id_artista;";
-  echo $query;
+
   $result = $db -> prepare($query);
   $result -> execute();
   $data = $result -> fetchAll();
 
 
   ?>
-<?php echo '<h2 class="title is-1"> Bienvenido artista $nombre_escenico; $id_artista </h2>';
+<?php echo '<h2 class="title is-1"> Bienvenido artista $nombre_escenico </h2>';
 
   
 
