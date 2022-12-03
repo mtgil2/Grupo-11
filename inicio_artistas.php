@@ -11,6 +11,7 @@ require_once "./__init__.php";
   $query = "SELECT nombre_lugar, fecha_evento
   FROM eventos
   WHERE '$id_artista' = eventos.id_artista";
+  echo $query;
   $result = $db -> prepare($query);
   $result -> execute();
   $data = $result -> fetchAll();
