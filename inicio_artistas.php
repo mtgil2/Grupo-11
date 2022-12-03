@@ -10,7 +10,7 @@ require_once "./__init__.php";
   $id_artista = $_SESSION['user_id'];
   $query = "SELECT nombre_lugar, fecha_evento
   FROM eventos
-  WHERE $id_artista = eventos.id_artista;";
+  WHERE '$id_artista' = eventos.id_artista;";
   echo $query;
   $result = $db -> prepare($query);
   $result -> execute();
